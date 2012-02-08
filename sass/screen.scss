@@ -1,2 +1,34 @@
 @import "compass/reset";
 @import "compass";
+
+// =Typography
+
+body { font-family: Palatino, cursive, serif; }
+h1, h2 { font-family: "Vast Shadow", cursive, serif; }
+body > header, body > article, #venue article {
+  h1 { font-family: "Abel", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+}
+body > header { text-transform: uppercase; }
+a { text-decoration: none; }
+.button { font-family: Arial, Helvetica; font-style: bold; text-transform: uppercase; }
+
+// =Color
+body { background: #f5f3ed; color: #2b2b2b; }
+body > header {
+  h1 { text-shadow: #201a30 0 2px 2px;
+    b { color: #992b28; }
+    // This duplicates the text to create the double shadow effect like in the design
+    &, b { position: relative;
+      &:before, &:after { content: attr(title); position: absolute; opacity: .3; }
+      &:before { left: 0; top: -4px; }
+      &:after { left: 4px; top: 4px; }
+    }
+  }
+  time { color: #bd3632; }
+}
+body > article { text-shadow: #fff 0 1px 1px;}
+.read-more a { color: #992b28; }
+.button { color: #5d7731; text-shadow: #f0fbd9 0 1px 1px; }
+
+// =Layout
+body > header b { display: inline-block; }

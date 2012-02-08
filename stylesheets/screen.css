@@ -62,3 +62,95 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 6, ../sass/screen.scss */
+body {
+  font-family: Palatino, cursive, serif;
+}
+
+/* line 7, ../sass/screen.scss */
+h1, h2 {
+  font-family: "Vast Shadow", cursive, serif;
+}
+
+/* line 9, ../sass/screen.scss */
+body > header h1, body > article h1, #venue article h1 {
+  font-family: "Abel", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 11, ../sass/screen.scss */
+body > header {
+  text-transform: uppercase;
+}
+
+/* line 12, ../sass/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 13, ../sass/screen.scss */
+.button {
+  font-family: Arial, Helvetica;
+  font-style: bold;
+  text-transform: uppercase;
+}
+
+/* line 16, ../sass/screen.scss */
+body {
+  background: #f5f3ed;
+  color: #2b2b2b;
+}
+
+/* line 18, ../sass/screen.scss */
+body > header h1 {
+  text-shadow: #201a30 0 2px 2px;
+}
+/* line 19, ../sass/screen.scss */
+body > header h1 b {
+  color: #992b28;
+}
+/* line 21, ../sass/screen.scss */
+body > header h1, body > header h1 b {
+  position: relative;
+}
+/* line 22, ../sass/screen.scss */
+body > header h1:before, body > header h1:after, body > header h1 b:before, body > header h1 b:after {
+  content: attr(title);
+  position: absolute;
+  opacity: .3;
+}
+/* line 23, ../sass/screen.scss */
+body > header h1:before, body > header h1 b:before {
+  left: 0;
+  top: -4px;
+}
+/* line 24, ../sass/screen.scss */
+body > header h1:after, body > header h1 b:after {
+  left: 4px;
+  top: 4px;
+}
+/* line 27, ../sass/screen.scss */
+body > header time {
+  color: #bd3632;
+}
+
+/* line 29, ../sass/screen.scss */
+body > article {
+  text-shadow: #fff 0 1px 1px;
+}
+
+/* line 30, ../sass/screen.scss */
+.read-more a {
+  color: #992b28;
+}
+
+/* line 31, ../sass/screen.scss */
+.button {
+  color: #5d7731;
+  text-shadow: #f0fbd9 0 1px 1px;
+}
+
+/* line 34, ../sass/screen.scss */
+body > header b {
+  display: inline-block;
+}
