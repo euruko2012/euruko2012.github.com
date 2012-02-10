@@ -386,82 +386,88 @@ aside section {
     background-image: url(/images/header-bg.jpg);
   }
 
-  /* line 103, ../sass/screen.scss */
+  /* line 100, ../sass/screen.scss */
+  aside {
+    background: url(/images/bg_footer.png) repeat-x center bottom;
+  }
+
+  /* line 104, ../sass/screen.scss */
   body > header, body > article, aside section {
     width: 917px;
     padding: 0;
     margin: 0 auto;
   }
 
-  /* line 104, ../sass/screen.scss */
+  /* line 105, ../sass/screen.scss */
   body > header {
     padding-top: 76px;
   }
-  /* line 105, ../sass/screen.scss */
+  /* line 106, ../sass/screen.scss */
   body > header h2 {
     margin-left: 8px;
   }
 
-  /* line 107, ../sass/screen.scss */
+  /* line 108, ../sass/screen.scss */
   body > article {
     margin-top: 40px;
   }
-  /* line 108, ../sass/screen.scss */
+  /* line 109, ../sass/screen.scss */
   body > article h1 {
     margin-bottom: 30px;
   }
 
-  /* line 110, ../sass/screen.scss */
+  /* line 111, ../sass/screen.scss */
   aside {
+    padding-bottom: 349px;
     margin-top: 30px;
   }
-  /* line 111, ../sass/screen.scss */
+  /* line 112, ../sass/screen.scss */
   aside section {
     margin-top: 40px;
   }
-  /* line 112, ../sass/screen.scss */
+  /* line 113, ../sass/screen.scss */
   aside #speakers h1 {
     margin-bottom: 30px;
   }
 
-  /* line 114, ../sass/screen.scss */
+  /* line 115, ../sass/screen.scss */
   #venue {
     padding-bottom: 58px;
     border-bottom: 1px solid #c8c5bf;
   }
-  /* line 116, ../sass/screen.scss */
+  /* line 117, ../sass/screen.scss */
   #venue figure img {
     max-width: 292px;
   }
-  /* line 117, ../sass/screen.scss */
+  /* line 118, ../sass/screen.scss */
   #venue figure img:nth-child(3) {
     display: inline;
   }
-  /* line 119, ../sass/screen.scss */
+  /* line 120, ../sass/screen.scss */
   #venue article {
     margin-top: 35px;
   }
-  /* line 120, ../sass/screen.scss */
+  /* line 121, ../sass/screen.scss */
   #venue article h1 {
     margin-bottom: 38px;
   }
 
-  /* line 124, ../sass/screen.scss */
+  /* line 125, ../sass/screen.scss */
   #speakers article h1 {
     position: absolute;
     left: -9999em;
   }
-  /* line 125, ../sass/screen.scss */
+  /* line 126, ../sass/screen.scss */
   #speakers ul {
     margin: 28px 0 26px;
   }
-  /* line 126, ../sass/screen.scss */
+  /* line 127, ../sass/screen.scss */
   #speakers li {
     border: none;
     margin: 0 10px 0 0;
     display: inline-block;
   }
-  /* line 127, ../sass/screen.scss */
+  /* line 128, ../sass/screen.scss */
   #speakers img {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -470,12 +476,12 @@ aside section {
     -khtml-border-radius: 2px;
     border-radius: 2px;
   }
-  /* line 128, ../sass/screen.scss */
+  /* line 129, ../sass/screen.scss */
   #speakers figure {
     position: relative;
     overflow: hidden;
   }
-  /* line 129, ../sass/screen.scss */
+  /* line 130, ../sass/screen.scss */
   #speakers figcaption {
     width: 100%;
     height: 31px;
@@ -502,11 +508,11 @@ aside section {
     -o-transition: bottom 0.3s;
     transition: bottom 0.3s;
   }
-  /* line 130, ../sass/screen.scss */
+  /* line 131, ../sass/screen.scss */
   #speakers a:hover figcaption {
     bottom: 0;
   }
-  /* line 131, ../sass/screen.scss */
+  /* line 132, ../sass/screen.scss */
   #speakers .call-for-proposal {
     width: 435px;
   }

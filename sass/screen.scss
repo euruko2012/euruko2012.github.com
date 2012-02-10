@@ -97,6 +97,7 @@ aside { margin-top: 20px; border-top: 11px solid #c8c5bf;
   
   //= Color
   body { background-image: url(/images/header-bg.jpg); }
+  aside { background: url(/images/bg_footer.png) repeat-x center bottom; }
   
   //= Layout
   
@@ -107,7 +108,7 @@ aside { margin-top: 20px; border-top: 11px solid #c8c5bf;
   body > article { margin-top: 40px; 
     h1 { margin-bottom: 30px; }
   }
-  aside { margin-top: 30px;
+  aside { padding-bottom: 349px; margin-top: 30px;
     section { margin-top: 40px; }
     #speakers h1 { margin-bottom: 30px; }
   }
