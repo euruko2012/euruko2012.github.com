@@ -10,6 +10,7 @@ h1 { font-size: 25px; }
 body > header, body > article, #venue article {
   h1 { font-family: "Abel", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 40px; }
   h2 { font-size: 8px; word-spacing: 3px; }
+  sup { font-size: 6px; vertical-align: top; text-transform: lowercase; }
 }
 body > header { text-transform: uppercase; }
 body > article h1 { font-size: 20px; line-height: 24px; }
@@ -19,7 +20,8 @@ a { text-decoration: none; }
 #speakers h1 { font-family: Palatino, cursive, serif; font-size: 18px; }
 
 // =Color
-body { background: #f5f3ed; color: #2b2b2b; }
+
+body { background: #f5f3ed no-repeat center top; color: #2b2b2b; }
 body > header {
   h1 { text-shadow: #201a30 0 2px 2px;
     b { color: #992b28; }
@@ -33,10 +35,12 @@ body > header {
   time { color: #bd3632; }
 }
 body > article { text-shadow: #fff 0 1px 1px;}
+figcaption { background: #fafbd7; background: rgba(43, 43, 43, .9); color: #fafbd7; }
 .read-more a { color: #992b28; }
 .button { @include background(linear-gradient(#c0e47c, #a6c75e)); color: #5d7731; line-height: 39px; text-shadow: #f0fbd9 0 1px 1px; text-align: center; }
 
 // =Layout
+
 .button { padding: 0 18px; border: 1px solid #9bb66a; height: 39px; display: inline-block; @include border-radius(2px); @include box-shadow(#dad8d1 0 2px 2px, inset #dff5a1 0 2px 2px);}
 body > header { padding: 10px; margin-bottom: 10px;
   b { display: inline-block; }
@@ -54,7 +58,7 @@ aside { margin-top: 20px; border-top: 11px solid #c8c5bf;
   section { padding: 20px; }
 }
 #venue {
-  figure img { max-width: 46%; margin-right: 10px;
+  figure img { max-width: 46%; margin-right: 10px; vertical-align: top;
     &:nth-child(3) { display: none; }
   }
   article { margin-top: 30px; 
@@ -66,4 +70,64 @@ aside { margin-top: 20px; border-top: 11px solid #c8c5bf;
   li { padding-bottom: 5px; border-bottom: 5px solid #c8c5bf; margin: 20px 0 0 0;}
   img { max-width: 100%; }
   figcaption { display: none; }
+}
+
+@media only screen and (min-width: 800px) {
+  //= Typography
+  
+  body > header { 
+    hgroup { margin: 30px 0 0 12px; }
+    h1 { font-size: 130px; }
+    h2 { font-size: 29px; word-spacing: 0; }
+    // This duplicates the text to create the double shadow effect like in the design
+    h1, h1 b { position: relative;
+        &:before, &:after { content: attr(title); position: absolute; opacity: .3; }
+          &:before { left: 0; top: -4px; }
+          &:after { left: 4px; top: 4px; }
+    }
+    sup { font-size: 18px; }
+    figure { width: auto; }
+  }
+  body > article {
+    h1 { font-size: 30px; line-height: 40px; text-indent: 28px; }
+  }
+  p { font-size: 16px; line-height: 25px; }
+  #speakers h1 { font-family: "Vast Shadow", cursive, serif; font-size: 25px; }
+  .call-for-proposal { text-align: right; }
+  
+  //= Color
+  body { background-image: url(/images/header-bg.jpg); }
+  
+  //= Layout
+  
+  body > header, body > article, aside section { width: 917px; padding: 0; margin: 0 auto; }
+  body > header { padding-top: 76px; 
+    h2 { margin-left: 8px; }
+  }
+  body > article { margin-top: 40px; 
+    h1 { margin-bottom: 30px; }
+  }
+  aside { margin-top: 30px;
+    section { margin-top: 40px; }
+    #speakers h1 { margin-bottom: 30px; }
+  }
+  #venue { padding-bottom: 58px; border-bottom: 1px solid #c8c5bf;
+    figure {
+      img { max-width: 292px; }
+      img:nth-child(3) { display: inline; }
+    }
+    article { margin-top: 35px; 
+      h1 { margin-bottom: 38px; }
+    }
+  }
+  #speakers {
+    article h1 { position: absolute; left: -9999em; }
+    ul { margin: 28px 0 26px;}
+    li { border: none; margin: 0 10px 0 0; display: inline-block; }
+    img { @include border-radius(2px); }
+    figure { position: relative; overflow: hidden; }
+    figcaption { width: 100%; height: 31px; position: absolute; left: 0; bottom: -31px; display: block; @include border-bottom-radius(2px); line-height: 31px; text-indent: 7px; @include transition(bottom .3s); }
+    a:hover figcaption { bottom: 0; }
+    .call-for-proposal { width: 435px; }
+  }
 }
