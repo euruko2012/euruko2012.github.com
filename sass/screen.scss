@@ -74,13 +74,15 @@ aside { margin-top: 20px; border-top: 11px solid #c8c5bf;
   figcaption { display: none; }
 }
 
+strong { font-weight: bold; }
+
 @media only screen and (min-width: 800px) {
   //= Typography
   
   body > header { 
     hgroup { margin: 30px 0 0 12px; }
     h1 { font-size: 129px; }
-    h2 { font-size: 29px; word-spacing: 0; }
+    h2 { font-size: 34px; word-spacing: 0; }
     // This duplicates the text to create the double shadow effect like in the design
     h1, h1 b { position: relative;
         &:before, &:after { content: attr(title); position: absolute; opacity: .3; }
@@ -123,7 +125,7 @@ aside { margin-top: 20px; border-top: 11px solid #c8c5bf;
       h1 { margin-bottom: 38px; }
     }
   }
-  #speakers {
+  #speakers { position: relative; padding-left: 20px;
     article h1 { position: absolute; left: -9999em; }
     ul { margin: 28px 0 26px;}
     li { border: none; margin: 0 10px 0 0; display: inline-block; }
@@ -133,6 +135,10 @@ aside { margin-top: 20px; border-top: 11px solid #c8c5bf;
     a:hover figcaption { bottom: 0; }
     .call-for-proposal { width: 435px; }
   }
+  
+  #speakers h1, #speakers p { margin-left: 110px;}
+  
+  .coming-soon { text-shadow: rgba(0,0,0,.5) 0px 1px 1px; @include box-shadow(rgba(0,0,0,0.2) -1px 1px 4px); margin: 0; @include background(linear-gradient(#961815, #b03532)); width: 64px; height: 70px; @include border-radius(57px); line-height: 22px; font-weight: bold; color: #fff; padding-top: 30px; @include rotate(-10deg); border: 7px solid #fff; position: absolute; left: -120px; top: -24px; }
 }
 
 @media only screen and (min-width: 1500px) {

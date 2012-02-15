@@ -318,161 +318,171 @@ aside section {
   display: none;
 }
 
+/* line 77, ../sass/screen.scss */
+strong {
+  font-weight: bold;
+}
+
 @media only screen and (min-width: 800px) {
-  /* line 81, ../sass/screen.scss */
+  /* line 83, ../sass/screen.scss */
   body > header hgroup {
     margin: 30px 0 0 12px;
   }
-  /* line 82, ../sass/screen.scss */
+  /* line 84, ../sass/screen.scss */
   body > header h1 {
     font-size: 129px;
   }
-  /* line 83, ../sass/screen.scss */
+  /* line 85, ../sass/screen.scss */
   body > header h2 {
-    font-size: 29px;
+    font-size: 34px;
     word-spacing: 0;
   }
-  /* line 85, ../sass/screen.scss */
+  /* line 87, ../sass/screen.scss */
   body > header h1, body > header h1 b {
     position: relative;
   }
-  /* line 86, ../sass/screen.scss */
+  /* line 88, ../sass/screen.scss */
   body > header h1:before, body > header h1:after, body > header h1 b:before, body > header h1 b:after {
     content: attr(title);
     position: absolute;
     opacity: .3;
   }
-  /* line 87, ../sass/screen.scss */
+  /* line 89, ../sass/screen.scss */
   body > header h1:before, body > header h1 b:before {
     left: 0;
     top: -4px;
   }
-  /* line 88, ../sass/screen.scss */
+  /* line 90, ../sass/screen.scss */
   body > header h1:after, body > header h1 b:after {
     left: 4px;
     top: 4px;
   }
-  /* line 90, ../sass/screen.scss */
+  /* line 92, ../sass/screen.scss */
   body > header sup {
     font-size: 18px;
   }
-  /* line 91, ../sass/screen.scss */
+  /* line 93, ../sass/screen.scss */
   body > header figure {
     width: auto;
   }
 
-  /* line 94, ../sass/screen.scss */
+  /* line 96, ../sass/screen.scss */
   body > article h1 {
     font-size: 30px;
     line-height: 40px;
     text-indent: 28px;
   }
 
-  /* line 96, ../sass/screen.scss */
+  /* line 98, ../sass/screen.scss */
   p {
     font-size: 16px;
     line-height: 25px;
   }
 
-  /* line 97, ../sass/screen.scss */
+  /* line 99, ../sass/screen.scss */
   #speakers h1 {
     font-family: "Vast Shadow", cursive, serif;
     font-size: 25px;
   }
 
-  /* line 98, ../sass/screen.scss */
+  /* line 100, ../sass/screen.scss */
   .call-for-proposal {
     text-align: right;
   }
 
-  /* line 101, ../sass/screen.scss */
+  /* line 103, ../sass/screen.scss */
   body {
     background-image: url(/images/header-bg.jpg);
   }
 
-  /* line 102, ../sass/screen.scss */
+  /* line 104, ../sass/screen.scss */
   aside {
     background: url(/images/bg_footer.png) repeat-x center bottom;
   }
 
-  /* line 106, ../sass/screen.scss */
+  /* line 108, ../sass/screen.scss */
   body > header, body > article, aside section {
     width: 917px;
     padding: 0;
     margin: 0 auto;
   }
 
-  /* line 107, ../sass/screen.scss */
+  /* line 109, ../sass/screen.scss */
   body > header {
     padding-top: 76px;
   }
-  /* line 108, ../sass/screen.scss */
+  /* line 110, ../sass/screen.scss */
   body > header h2 {
     margin-left: 8px;
   }
 
-  /* line 110, ../sass/screen.scss */
+  /* line 112, ../sass/screen.scss */
   body > article {
     margin-top: 40px;
     min-height: 226px;
   }
-  /* line 111, ../sass/screen.scss */
+  /* line 113, ../sass/screen.scss */
   body > article h1 {
     margin-bottom: 30px;
   }
 
-  /* line 113, ../sass/screen.scss */
+  /* line 115, ../sass/screen.scss */
   aside {
     padding-bottom: 349px;
     margin-top: 30px;
   }
-  /* line 114, ../sass/screen.scss */
+  /* line 116, ../sass/screen.scss */
   aside section {
     margin-top: 40px;
   }
-  /* line 115, ../sass/screen.scss */
+  /* line 117, ../sass/screen.scss */
   aside #speakers h1 {
     margin-bottom: 30px;
   }
 
-  /* line 117, ../sass/screen.scss */
+  /* line 119, ../sass/screen.scss */
   #venue {
     padding-bottom: 58px;
     border-bottom: 1px solid #c8c5bf;
   }
-  /* line 119, ../sass/screen.scss */
+  /* line 121, ../sass/screen.scss */
   #venue figure img {
     max-width: 292px;
   }
-  /* line 120, ../sass/screen.scss */
+  /* line 122, ../sass/screen.scss */
   #venue figure img:nth-child(3) {
     display: inline;
   }
-  /* line 122, ../sass/screen.scss */
+  /* line 124, ../sass/screen.scss */
   #venue article {
     margin-top: 35px;
   }
-  /* line 123, ../sass/screen.scss */
+  /* line 125, ../sass/screen.scss */
   #venue article h1 {
     margin-bottom: 38px;
   }
 
-  /* line 127, ../sass/screen.scss */
+  /* line 128, ../sass/screen.scss */
+  #speakers {
+    position: relative;
+    padding-left: 20px;
+  }
+  /* line 129, ../sass/screen.scss */
   #speakers article h1 {
     position: absolute;
     left: -9999em;
   }
-  /* line 128, ../sass/screen.scss */
+  /* line 130, ../sass/screen.scss */
   #speakers ul {
     margin: 28px 0 26px;
   }
-  /* line 129, ../sass/screen.scss */
+  /* line 131, ../sass/screen.scss */
   #speakers li {
     border: none;
     margin: 0 10px 0 0;
     display: inline-block;
   }
-  /* line 130, ../sass/screen.scss */
+  /* line 132, ../sass/screen.scss */
   #speakers img {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -481,12 +491,12 @@ aside section {
     -khtml-border-radius: 2px;
     border-radius: 2px;
   }
-  /* line 131, ../sass/screen.scss */
+  /* line 133, ../sass/screen.scss */
   #speakers figure {
     position: relative;
     overflow: hidden;
   }
-  /* line 132, ../sass/screen.scss */
+  /* line 134, ../sass/screen.scss */
   #speakers figcaption {
     width: 100%;
     height: 31px;
@@ -513,17 +523,59 @@ aside section {
     -o-transition: bottom 0.3s;
     transition: bottom 0.3s;
   }
-  /* line 133, ../sass/screen.scss */
+  /* line 135, ../sass/screen.scss */
   #speakers a:hover figcaption {
     bottom: 0;
   }
-  /* line 134, ../sass/screen.scss */
+  /* line 136, ../sass/screen.scss */
   #speakers .call-for-proposal {
     width: 435px;
   }
+
+  /* line 139, ../sass/screen.scss */
+  #speakers h1, #speakers p {
+    margin-left: 110px;
+  }
+
+  /* line 141, ../sass/screen.scss */
+  .coming-soon {
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 1px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) -1px 1px 4px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) -1px 1px 4px;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) -1px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) -1px 1px 4px;
+    margin: 0;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #961815), color-stop(100%, #b03532));
+    background: -webkit-linear-gradient(#961815, #b03532);
+    background: -moz-linear-gradient(#961815, #b03532);
+    background: -o-linear-gradient(#961815, #b03532);
+    background: -ms-linear-gradient(#961815, #b03532);
+    background: linear-gradient(#961815, #b03532);
+    width: 64px;
+    height: 70px;
+    -moz-border-radius: 57px;
+    -webkit-border-radius: 57px;
+    -o-border-radius: 57px;
+    -ms-border-radius: 57px;
+    -khtml-border-radius: 57px;
+    border-radius: 57px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 30px;
+    -moz-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    border: 7px solid #fff;
+    position: absolute;
+    left: -120px;
+    top: -24px;
+  }
 }
 @media only screen and (min-width: 1500px) {
-  /* line 139, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   body {
     background-size: 100% 619px;
   }
