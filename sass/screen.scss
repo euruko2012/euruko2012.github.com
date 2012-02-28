@@ -39,7 +39,11 @@ a { color: #992b28;
   &:hover { text-decoration: underline; }
 }
 figcaption { background: #fafbd7; background: rgba(43, 43, 43, .9); color: #fafbd7; }
-.button { @include background(linear-gradient(#c0e47c, #a6c75e)); color: #5d7731; line-height: 39px; text-shadow: #f0fbd9 0 1px 1px; text-align: center; }
+.button { @include background(linear-gradient(#c0e47c, #a6c75e)); color: #5d7731; line-height: 39px; text-shadow: #f0fbd9 0 1px 1px; text-align: center; 
+  .call-for-proposal & { position: relative; padding-left: 48px;
+    &:before { content: ''; display: block; width: 34px; height: 30px; position: absolute; left: 6px; top: 4px; background: url(/images/octocat-icon.png) no-repeat left top; }
+  }
+}
 
 // =Layout
 
@@ -125,7 +129,11 @@ strong { font-weight: bold; }
       h1 { margin-bottom: 38px; }
     }
   }
-  #speakers { position: relative; padding-left: 20px;
+  .extra-info {
+    margin: 0 auto;
+    width: 917px;
+  }
+  #speakers { position: relative; width: 350px; margin-left: 0; margin-right: 0; padding-right: 120px;
     article h1 { position: absolute; left: -9999em; }
     ul { margin: 28px 0 26px;}
     li { border: none; margin: 0 10px 0 0; display: inline-block; }
@@ -133,12 +141,24 @@ strong { font-weight: bold; }
     figure { position: relative; overflow: hidden; }
     figcaption { width: 100%; height: 31px; position: absolute; left: 0; bottom: -31px; display: block; @include border-bottom-radius(2px); line-height: 31px; text-indent: 7px; @include transition(bottom .3s); }
     a:hover figcaption { bottom: 0; }
-    .call-for-proposal { width: 435px; }
+    .call-for-proposal { width: 470px; }
   }
   
-  #speakers h1, #speakers p { margin-left: 110px;}
-  
-  .coming-soon { text-shadow: rgba(0,0,0,.5) 0px 1px 1px; @include box-shadow(rgba(0,0,0,0.2) -1px 1px 4px); margin: 0; @include background(linear-gradient(#961815, #b03532)); width: 64px; height: 70px; @include border-radius(57px); line-height: 22px; font-weight: bold; color: #fff; padding-top: 30px; @include rotate(-10deg); border: 7px solid #fff; position: absolute; left: -120px; top: -24px; }
+  .github { 
+    width: 149px;
+    height: 149px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: url(/images/fork-ribbon.png) no-repeat right top;
+      text-indent: -9999em;
+    }
+  }
 }
 
 @media only screen and (min-width: 1500px) {
