@@ -80,6 +80,106 @@ aside { margin-top: 20px; border-top: 11px solid #c8c5bf;
 
 strong { font-weight: bold; }
 
+nav {
+  height: 42px;
+  background: #2b2b2b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  
+  ul {
+    font-family: "Abel", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 42px;
+    text-align: right;
+    position: relative;
+    
+    li {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 30px;
+      
+      &:first-child {
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      
+      &:last-child {
+        margin-right: 0;
+      }
+      
+      &.twitter {
+        font-size: 13px;
+        padding-right: 28px;
+        background: url(/images/twitter.png) no-repeat right center;
+      }
+    }
+    
+    a {
+      color: #fafbd7;
+      text-transform: uppercase;
+      
+      &:hover {
+        color: #ec716d;
+      }
+    }
+  }
+}
+
+.blog {
+  > header {
+    height: 135px;
+    
+    figure {
+      width: 118px;
+      height: 118px;
+    }
+    
+    hgroup {
+      margin-top: 0;
+      margin-left: 4px;
+    }
+    
+    h1 {
+      display: inline-block;
+      font-size: 110px;
+      vertical-align: top;
+    }
+    
+    h2 {
+      display: inline-block;
+      font-size: 30px;
+      margin-left: 26px;
+      text-align: right;
+      
+      b {
+        display: block;
+        
+        &.month { font-size: 50px; }
+      }
+    }
+    
+    time {
+      color: #2B2B2B;
+    }
+  }
+  
+  > h1 {
+    padding-top: 38px;
+    border-top: 11px solid #C8C5BF;
+    
+    b {
+      display: block;
+      margin: 0 auto;
+      width: 917px;
+    }
+  }
+}
+
 @media only screen and (min-width: 800px) {
   //= Typography
   
@@ -105,11 +205,12 @@ strong { font-weight: bold; }
   
   //= Color
   body { background-image: url(/images/header-bg.jpg); }
+  body.blog { background-image: url(/images/small-header-bg.jpg); }
   aside { background: url(/images/bg_footer.png) repeat-x center bottom; }
   
   //= Layout
   
-  body > header, body > article, aside section { width: 917px; padding: 0; margin: 0 auto; }
+  body > header, body > article, aside section, nav ul { width: 917px; padding: 0; margin: 0 auto; }
   body > header { padding-top: 76px; 
     h2 { margin-left: 8px; }
   }
@@ -145,6 +246,65 @@ strong { font-weight: bold; }
     .call-for-proposal { width: 100%; margin-top: 15px; }
   }
   
+  #blog article h1, .blog article h1 {
+    font-family: Palatino, cursive, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 -20px 83px;
+  }
+  
+  #blog, .blog article {
+    footer {
+      margin-bottom: 38px;
+      font-size: 16px;
+      
+      div {
+        display: inline-block;
+        vertical-align: bottom;
+        margin-left: 15px;
+      }
+      
+      img {
+        vertical-align: top;
+      }
+      
+      time {
+        font-style: italic;
+        color: #848484;
+      }
+    }
+  }
+  
+  .blog {
+    footer, article > div {
+      display: inline-block;
+      vertical-align: top;
+    }
+    
+    div > h1, article > div p {
+      margin: 0;
+      text-indent: 0;
+      padding-bottom: 34px;
+    }
+    
+    article > div p:last-child {
+      padding-bottom: 0;
+    }
+    
+    footer {
+      width: 274px;
+    }
+    
+    article > div {
+      width: 620px;
+      margin-left: 20px;
+    }
+    
+    article {
+      margin-bottom: 90px;
+    }
+  }
+  
   .extra-info {
     section {
       display: inline-block;
@@ -156,38 +316,10 @@ strong { font-weight: bold; }
       margin-top: 30px;
       text-align: right;
     }
-    
-    #blog {
-      article h1 {
-        font-family: Palatino, cursive, serif;
-        font-weight: bold;
-        font-size: 20px;
-        margin: 0 0 -20px 83px;
-      }
-      
-      footer {
-        margin-bottom: 38px;
-        font-size: 16px;
-        
-        div {
-          display: inline-block;
-          vertical-align: bottom;
-          margin-left: 15px;
-        }
-        
-        img {
-          vertical-align: top;
-        }
-        
-        time {
-          font-style: italic;
-          color: #848484;
-        }
-      }
-    }
   }
 }
 
 @media only screen and (min-width: 1500px) {
   body { background-size: 100% 619px; }
+  body.blog { background-size: 100% 217px; }
 }
