@@ -487,9 +487,8 @@ strong {
   /* line 136, ../sass/screen.scss */
   #speakers {
     position: relative;
-    width: 470px;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 38px;
   }
   /* line 137, ../sass/screen.scss */
   #speakers article h1 {
@@ -557,12 +556,51 @@ strong {
   }
   /* line 145, ../sass/screen.scss */
   #speakers .call-for-proposal {
-    width: 470px;
+    width: 100%;
     margin-top: 15px;
+  }
+
+  /* line 149, ../sass/screen.scss */
+  .extra-info section {
+    display: inline-block;
+    width: 439px;
+    vertical-align: top;
+  }
+  /* line 155, ../sass/screen.scss */
+  .extra-info .read-more {
+    margin-top: 30px;
+    text-align: right;
+  }
+  /* line 161, ../sass/screen.scss */
+  .extra-info #blog article h1 {
+    font-family: Palatino, cursive, serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 -20px 83px;
+  }
+  /* line 168, ../sass/screen.scss */
+  .extra-info #blog footer {
+    margin-bottom: 38px;
+    font-size: 16px;
+  }
+  /* line 172, ../sass/screen.scss */
+  .extra-info #blog footer div {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 15px;
+  }
+  /* line 178, ../sass/screen.scss */
+  .extra-info #blog footer img {
+    vertical-align: top;
+  }
+  /* line 182, ../sass/screen.scss */
+  .extra-info #blog footer time {
+    font-style: italic;
+    color: #848484;
   }
 }
 @media only screen and (min-width: 1500px) {
-  /* line 150, ../sass/screen.scss */
+  /* line 192, ../sass/screen.scss */
   body {
     background-size: 100% 619px;
   }
