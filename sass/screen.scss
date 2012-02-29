@@ -140,6 +140,7 @@ strong { font-weight: bold; }
     img { @include border-radius(2px); }
     figure { position: relative; overflow: hidden; }
     figcaption { width: 100%; height: 31px; position: absolute; left: 0; bottom: -31px; display: block; @include border-bottom-radius(2px); line-height: 31px; text-indent: 7px; @include transition(bottom .3s); }
+    p { margin-bottom: 15px; }
     a:hover figcaption { bottom: 0; }
     .call-for-proposal { width: 470px; margin-top: 15px; }
   }

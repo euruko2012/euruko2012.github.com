@@ -548,17 +548,21 @@ strong {
     transition: bottom 0.3s;
   }
   /* line 143, ../sass/screen.scss */
+  #speakers p {
+    margin-bottom: 15px;
+  }
+  /* line 144, ../sass/screen.scss */
   #speakers a:hover figcaption {
     bottom: 0;
   }
-  /* line 144, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   #speakers .call-for-proposal {
     width: 470px;
     margin-top: 15px;
   }
 }
 @media only screen and (min-width: 1500px) {
-  /* line 149, ../sass/screen.scss */
+  /* line 150, ../sass/screen.scss */
   body {
     background-size: 100% 619px;
   }
