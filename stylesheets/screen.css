@@ -325,7 +325,7 @@ nav {
     font-size: 25px; }
 
   .call-for-proposal {
-    text-align: center; }
+    text-align: right; }
 
   body {
     background-image: url(/images/header-bg.jpg); }
@@ -453,6 +453,9 @@ nav {
     #blog footer time, .blog article footer time {
       font-style: italic;
       color: #848484; }
+
+  #blog article footer div {
+    margin-left: 9px; }
 
   .blog footer, .blog article > div {
     display: inline-block;

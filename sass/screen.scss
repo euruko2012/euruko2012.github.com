@@ -197,7 +197,7 @@ nav {
   }
   p { font-size: 16px; line-height: 25px; }
   #speakers h1 { font-family: "Vast Shadow", cursive, serif; font-size: 25px; }
-  .call-for-proposal { text-align: center; }
+  .call-for-proposal { text-align: right; }
 
   //= Color
   body { background-image: url(/images/header-bg.jpg); }
@@ -271,6 +271,10 @@ nav {
         color: #848484;
       }
     }
+  }
+
+  #blog article footer div {
+    margin-left: 9px;
   }
 
   .blog {
