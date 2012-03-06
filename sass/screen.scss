@@ -83,7 +83,6 @@ strong { font-weight: bold; }
 nav {
   height: 42px;
   background: #2b2b2b;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -283,10 +282,10 @@ nav {
       vertical-align: top;
     }
 
-    div > h1, article > div p {
+    div > h1, div > h3, article > div p {
       margin: 0;
       text-indent: 0;
-      padding-bottom: 34px;
+      padding-bottom: 24px;
     }
 
     article > div p:last-child {
@@ -306,7 +305,24 @@ nav {
       margin-bottom: 90px;
 
       p {
-        margin-bottom: 5px;
+        margin-bottom: 8px;
+      }
+      h3 {
+        font-size: 20px;
+        padding-top: 12px;
+      }
+      ul {
+        margin-bottom: 24px;
+      }
+      q {
+        font-style: italic;
+
+        &:before {
+          content: '“';
+        }
+        &:after {
+          content: '”';
+        }
       }
     }
   }
