@@ -35,11 +35,11 @@ body > header {
   time { color: #bd3632; }
 }
 body > article { text-shadow: #fff 0 1px 1px;}
-a { color: #992b28; 
+a { color: #992b28;
   &:hover { text-decoration: underline; }
 }
 figcaption { background: #fafbd7; background: rgba(43, 43, 43, .9); color: #fafbd7; }
-.button { @include background(linear-gradient(#c0e47c, #a6c75e)); color: #5d7731; line-height: 39px; text-shadow: #f0fbd9 0 1px 1px; text-align: center; 
+.button { @include background(linear-gradient(#c0e47c, #a6c75e)); color: #5d7731; line-height: 39px; text-shadow: #f0fbd9 0 1px 1px; text-align: center;
   .call-for-proposal & { position: relative; padding-left: 48px;
     &:before { content: ''; display: block; width: 34px; height: 30px; position: absolute; left: 6px; top: 4px; background: url(/images/octocat-icon.png) no-repeat left top; }
   }
@@ -67,7 +67,7 @@ aside { margin-top: 20px; border-top: 11px solid #c8c5bf;
   figure img { max-width: 46%; margin-right: 10px; vertical-align: top;
     &:nth-child(3) { display: none; }
   }
-  article { margin-top: 30px; 
+  article { margin-top: 30px;
     h1 { margin-bottom: 20px; }
   }
 }
@@ -88,41 +88,41 @@ nav {
   left: 0;
   width: 100%;
   z-index: 5;
-  
+
   ul {
-    font-family: "Abel", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-family: "Abel", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: normal;
     line-height: 42px;
     text-align: right;
     position: relative;
-    
+
     li {
       display: inline-block;
       vertical-align: top;
       margin-right: 30px;
-      
+
       &:first-child {
         position: absolute;
         left: 0;
         top: 0;
       }
-      
+
       &:last-child {
         margin-right: 0;
       }
-      
+
       &.twitter {
         font-size: 13px;
         padding-right: 28px;
         background: url(/images/twitter.png) no-repeat right center;
       }
     }
-    
+
     a {
       color: #fafbd7;
       text-transform: uppercase;
-      
+
       &:hover {
         color: #ec716d;
       }
@@ -133,45 +133,45 @@ nav {
 .blog {
   > header {
     height: 135px;
-    
+
     figure {
       width: 118px;
       height: 118px;
     }
-    
+
     hgroup {
       margin-top: 0;
       margin-left: 4px;
     }
-    
+
     h1 {
       display: inline-block;
       font-size: 110px;
       vertical-align: top;
     }
-    
+
     h2 {
       display: inline-block;
       font-size: 30px;
       margin-left: 26px;
       text-align: right;
-      
+
       b {
         display: block;
-        
+
         &.month { font-size: 50px; }
       }
     }
-    
+
     time {
       color: #2B2B2B;
     }
   }
-  
+
   > h1 {
     padding-top: 38px;
     border-top: 11px solid #C8C5BF;
-    
+
     b {
       display: block;
       margin: 0 auto;
@@ -182,8 +182,8 @@ nav {
 
 @media only screen and (min-width: 800px) {
   //= Typography
-  
-  body > header { 
+
+  body > header {
     hgroup { margin: 30px 0 0 12px; }
     h1 { font-size: 129px; }
     h2 { font-size: 34px; word-spacing: 0; }
@@ -202,16 +202,16 @@ nav {
   p { font-size: 16px; line-height: 25px; }
   #speakers h1 { font-family: "Vast Shadow", cursive, serif; font-size: 25px; }
   .call-for-proposal { text-align: right; }
-  
+
   //= Color
   body { background-image: url(/images/header-bg.jpg); }
   body.blog { background-image: url(/images/small-header-bg.jpg); }
   aside { background: url(/images/bg_footer.png) repeat-x center bottom; }
-  
+
   //= Layout
-  
+
   body > header, body > article, aside section, nav ul { width: 917px; padding: 0; margin: 0 auto; }
-  body > header { padding-top: 76px; 
+  body > header { padding-top: 76px;
     h2 { margin-left: 8px; }
   }
   body > article { margin-top: 40px; min-height: 226px;
@@ -226,7 +226,7 @@ nav {
       img { max-width: 292px; }
       img:nth-child(3) { display: inline; }
     }
-    article { margin-top: 35px; 
+    article { margin-top: 35px;
       h1 { margin-bottom: 38px; }
     }
   }
@@ -245,73 +245,72 @@ nav {
     a:hover figcaption { bottom: 0; }
     .call-for-proposal { width: 100%; margin-top: 15px; }
   }
-  
+
   #blog article h1, .blog article h1 {
     font-family: Palatino, cursive, serif;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     margin: 0 0 -20px 83px;
   }
-  
+
   #blog, .blog article {
     footer {
       margin-bottom: 38px;
       font-size: 16px;
-      
+
       div {
         display: inline-block;
         vertical-align: bottom;
         margin-left: 15px;
       }
-      
+
       img {
         vertical-align: top;
       }
-      
+
       time {
         font-style: italic;
         color: #848484;
       }
     }
   }
-  
+
   .blog {
     footer, article > div {
       display: inline-block;
       vertical-align: top;
     }
-    
+
     div > h1, article > div p {
       margin: 0;
       text-indent: 0;
       padding-bottom: 34px;
     }
-    
+
     article > div p:last-child {
       padding-bottom: 0;
     }
-    
+
     footer {
       width: 274px;
     }
-    
+
     article > div {
       width: 620px;
       margin-left: 20px;
     }
-    
+
     article {
       margin-bottom: 90px;
     }
   }
-  
+
   .extra-info {
     section {
       display: inline-block;
       width: 439px;
       vertical-align: top;
     }
-    
+
     .read-more {
       margin-top: 30px;
       text-align: right;
