@@ -201,7 +201,7 @@ nav {
 
   //= Color
   body { background-image: url(/images/header-bg.jpg); }
-  body.blog { background-image: url(/images/small-header-bg.jpg); }
+  body.blog { background-image: url(/images/small-header-bg.jpg); background-position-y: 37px; }
   aside { background: url(/images/bg_footer.png) repeat-x center bottom; }
 
   //= Layout
