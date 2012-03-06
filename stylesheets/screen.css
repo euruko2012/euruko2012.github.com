@@ -473,6 +473,8 @@ nav {
     margin-left: 20px; }
   .blog article {
     margin-bottom: 90px; }
+    .blog article b, .blog article strong {
+      font-weight: bold; }
     .blog article p {
       margin-bottom: 8px; }
     .blog article h3 {

@@ -305,6 +305,9 @@ nav {
     article {
       margin-bottom: 90px;
 
+      b, strong {
+        font-weight: bold;
+      }
       p {
         margin-bottom: 8px;
       }
