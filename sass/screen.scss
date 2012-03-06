@@ -201,7 +201,7 @@ nav {
   }
   p { font-size: 16px; line-height: 25px; }
   #speakers h1 { font-family: "Vast Shadow", cursive, serif; font-size: 25px; }
-  .call-for-proposal { text-align: right; }
+  .call-for-proposal { text-align: center; }
 
   //= Color
   body { background-image: url(/images/header-bg.jpg); }
@@ -251,6 +251,9 @@ nav {
     font-size: 30px;
     margin: 0 0 -20px 83px;
   }
+  #blog article h1 {
+    font-size: 20px;
+  }
 
   #blog, .blog article {
     footer {
@@ -261,9 +264,6 @@ nav {
         display: inline-block;
         vertical-align: bottom;
         margin-left: 15px;
-        p {
-          margin-bottom: 10px;
-        }
       }
 
       img {
@@ -304,6 +304,10 @@ nav {
 
     article {
       margin-bottom: 90px;
+
+      p {
+        margin-bottom: 5px;
+      }
     }
   }
 

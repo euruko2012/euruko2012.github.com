@@ -328,7 +328,7 @@ nav {
     font-size: 25px; }
 
   .call-for-proposal {
-    text-align: right; }
+    text-align: center; }
 
   body {
     background-image: url(/images/header-bg.jpg); }
@@ -440,6 +440,9 @@ nav {
     font-size: 30px;
     margin: 0 0 -20px 83px; }
 
+  #blog article h1 {
+    font-size: 20px; }
+
   #blog footer, .blog article footer {
     margin-bottom: 38px;
     font-size: 16px; }
@@ -447,8 +450,6 @@ nav {
       display: inline-block;
       vertical-align: bottom;
       margin-left: 15px; }
-      #blog footer div p, .blog article footer div p {
-        margin-bottom: 10px; }
     #blog footer img, .blog article footer img {
       vertical-align: top; }
     #blog footer time, .blog article footer time {
@@ -471,6 +472,8 @@ nav {
     margin-left: 20px; }
   .blog article {
     margin-bottom: 90px; }
+    .blog article p {
+      margin-bottom: 5px; }
 
   .extra-info section {
     display: inline-block;
