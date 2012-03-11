@@ -293,6 +293,11 @@ nav {
       padding-bottom: 0;
     }
 
+    article.post {
+      border-bottom: 1px solid #C8C5BF;
+      padding-bottom: 45px;
+    }
+
     footer {
       width: 274px;
     }
@@ -303,7 +308,7 @@ nav {
     }
 
     article {
-      margin-bottom: 90px;
+      margin-bottom: 45px;
 
       b, strong {
         font-weight: bold;

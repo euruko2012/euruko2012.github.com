@@ -466,13 +466,16 @@ nav {
     padding-bottom: 24px; }
   .blog article > div p:last-child {
     padding-bottom: 0; }
+  .blog article.post {
+    border-bottom: 1px solid #C8C5BF;
+    padding-bottom: 45px; }
   .blog footer {
     width: 274px; }
   .blog article > div {
     width: 620px;
     margin-left: 20px; }
   .blog article {
-    margin-bottom: 90px; }
+    margin-bottom: 45px; }
     .blog article b, .blog article strong {
       font-weight: bold; }
     .blog article p {

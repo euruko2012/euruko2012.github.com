@@ -9,11 +9,11 @@
 
 <h1><b>Blog</b></h1>
 
-<article>
-  {% for post in site.posts %}
-    {% include post.html %}
-  {% endfor %}
+{% for post in site.posts %}
+<article class="post">
+  {% include post.html %}
 </article>
+{% endfor %}
 
 </body>
 </html>
