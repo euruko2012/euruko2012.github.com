@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include page_head.html %}
+
+<body class="blog">
+
+{% include header.html %}
+
+<h1><b>Blog</b></h1>
+
+<article>
+{% assign post = page %}
+{% include post.html %}
+</article>
+
+</body>
+</html>

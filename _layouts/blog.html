@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include page_head.html %}
+
+<body class="blog">
+
+{% include header.html %}
+
+<h1><b>Blog</b></h1>
+
+<article>
+  {% for post in site.posts %}
+    {% include post.html %}
+  {% endfor %}
+</article>
+
+</body>
+</html>

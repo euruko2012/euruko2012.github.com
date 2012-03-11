@@ -40,7 +40,7 @@
           <h1>Blog</h1>
           <article>
             {% assign latest_post = site.posts.first %}
-            <h1><a href="{{ latest_post.url }}">{{ latest_post.title | xml_escape}}</a></h1>
+            <h1><a href="/blog.html">{{ latest_post.title | xml_escape}}</a></h1>
             <footer>
               <img src="{{ latest_post.picture }}" alt="{{ latest_post.author }}">
               <div>
@@ -49,7 +49,7 @@
               </div>
             </footer>
             <p>{{ latest_post.content | strip_html | truncatewords: 25 }}</p>
-            <p class="read-more"><a href="{{ latest_post.url }}">Read more...</a></p>
+            <p class="read-more"><a href="/blog.html">Read more...</a></p>
           </article>
       </div>
     </aside>
