@@ -38,19 +38,19 @@
           <p class="call-for-proposal"><a href="https://github.com/euruko2012/call-for-proposals" class="button">Propose on Github</a></p>
         </section><section id="blog">
           <h1>Blog</h1>
+          {% for post in site.posts limit:4 %}
           <article>
-            {% assign latest_post = site.posts.first %}
-            <h1><a href="/blog.html">{{ latest_post.title | xml_escape}}</a></h1>
+            <h1><a href="/blog.html">{{ post.title | xml_escape}}</a></h1>
             <footer>
-              <img src="{{ latest_post.picture }}" alt="{{ latest_post.author }}">
+              <img src="{{ post.picture }}" alt="{{ post.author }}">
               <div>
-                <p>by {{ latest_post.author }}</p>
-                <p><time datetime="{{ latest_post.date | date: "%Y-%m-%d" }}">{{ latest_post.date | date: "%B %d, %Y" }}</time></p>
+                <p>by {{ post.author }}</p>
+                <p><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
               </div>
             </footer>
-            <p>{{ latest_post.content | strip_html | truncatewords: 25 }}</p>
-            <p class="read-more"><a href="/blog.html">Read more...</a></p>
           </article>
+          {% endfor %}
+          <p class="read-more"><a href="/blog.html">Read more...</a></p>
       </div>
     </aside>
   </body>

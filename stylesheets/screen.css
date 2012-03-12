@@ -438,6 +438,14 @@ nav {
     font-size: 30px;
     margin: 0 0 -20px 83px; }
 
+  #blog article {
+    border-bottom: 1px solid #C8C5BF;
+    padding-bottom: 15px;
+    margin-bottom: 15px; }
+
+  #blog article footer {
+    margin: 0; }
+
   #blog article h1 {
     font-size: 20px;
     position: relative; }
