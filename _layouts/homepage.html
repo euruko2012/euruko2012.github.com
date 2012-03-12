@@ -3,55 +3,58 @@
 
 {% include page_head.html %}
 
-  <body class="home">
-    <header>
+<body class="home">
+  <header>
+    <figure>
+      <img src="images/logo.png" alt="">
+    </figure><hgroup>
+      <h1 title="Euruko">EuRuKo<b title="2012">2012</b></h1>
+      <h2>Amsterdam - <time datetime="2012-06-01">1<sup>st</sup></time> &amp; <time datetime="2012-06-02">2<sup>nd</sup> june</time>
+    </hgroup>
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+
+  <aside>
+    <section id="venue">
+      <h1>Venue</h1>
       <figure>
-        <img src="images/logo.png" alt="">
-      </figure><hgroup>
-        <h1 title="Euruko">EuRuKo<b title="2012">2012</b></h1>
-        <h2>Amsterdam - <time datetime="2012-06-01">1<sup>st</sup></time> &amp; <time datetime="2012-06-02">2<sup>nd</sup> june</time>
-      </hgroup>
-    </header>
-
-    <article>
-      {{ content }}
-    </article>
-
-    <aside>
-      <section id="venue">
-        <h1>Venue</h1>
-        <figure>
-          <img src="/images/venue/tuschinski-1.jpg" alt="Tuschinski main room">
-          <img src="/images/venue/tuschinski-2.jpg" alt="Tuschinski hall">
-          <img src="/images/venue/tuschinski-3.jpg" alt="Tuschinski main room">
-        </figure>
+        <img src="/images/venue/tuschinski-1.jpg" alt="Tuschinski main room">
+        <img src="/images/venue/tuschinski-2.jpg" alt="Tuschinski hall">
+        <img src="/images/venue/tuschinski-3.jpg" alt="Tuschinski main room">
+      </figure>
+      <article>
+        <h1>Pathé Tuschinski</h1>
+        <p>The conference will be held in Pathé Tuschinski, a movie theatre in the heart of Amsterdam. Built in 1921 by its namesake Abraham Icek Tuschinski, the Hijman Louis de Jong-designed building is a spectacular mix of architectural styles: Amsterdam School, Jugendstil, Art Nouveau and Art Deco. The main auditorium usually plays host to movie premieres in the Netherlands, and is considered one of the most beautiful cinemas in the world.</p>
+      </article>
+    </section>
+    <div class="extra-info">
+      <section id="speakers">
+        <h1>Call for proposals</h1>
+        <p>Have a great idea for a talk? Do you have passion bursting out your ears? Want to sing to the world about a better way to use Ruby? Then why not submit a talk!</p>
+        <p>We love talk ideas of all shapes and sizes, but if you need a little inspiration maybe think about 'using Ruby as a glue'.<br>This is open to interpretation and we are looking forward to seeing the many ideas you come up with :)</p>
+        <p class="call-for-proposal"><a href="https://github.com/euruko2012/call-for-proposals" class="button">Propose on Github</a></p>
+      </section><section id="blog">
+        <h1>Blog</h1>
+        {% for post in site.posts limit:4 %}
         <article>
-          <h1>Pathé Tuschinski</h1>
-          <p>The conference will be held in Pathé Tuschinski, a movie theatre in the heart of Amsterdam. Built in 1921 by its namesake Abraham Icek Tuschinski, the Hijman Louis de Jong-designed building is a spectacular mix of architectural styles: Amsterdam School, Jugendstil, Art Nouveau and Art Deco. The main auditorium usually plays host to movie premieres in the Netherlands, and is considered one of the most beautiful cinemas in the world.</p>
+          <h1><a href="{{ post.url }}">{{ post.title | xml_escape}}</a></h1>
+          <footer>
+            <img src="{{ post.picture }}" alt="{{ post.author }}">
+            <div>
+              <p>by {{ post.author }}</p>
+              <p><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+            </div>
+          </footer>
         </article>
-      </section>
-      <div class="extra-info">
-        <section id="speakers">
-          <h1>Call for proposals</h1>
-          <p>Have a great idea for a talk? Do you have passion bursting out your ears? Want to sing to the world about a better way to use Ruby? Then why not submit a talk!</p>
-          <p>We love talk ideas of all shapes and sizes, but if you need a little inspiration maybe think about 'using Ruby as a glue'.<br>This is open to interpretation and we are looking forward to seeing the many ideas you come up with :)</p>
-          <p class="call-for-proposal"><a href="https://github.com/euruko2012/call-for-proposals" class="button">Propose on Github</a></p>
-        </section><section id="blog">
-          <h1>Blog</h1>
-          {% for post in site.posts limit:4 %}
-          <article>
-            <h1><a href="{{ post.url }}">{{ post.title | xml_escape}}</a></h1>
-            <footer>
-              <img src="{{ post.picture }}" alt="{{ post.author }}">
-              <div>
-                <p>by {{ post.author }}</p>
-                <p><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
-              </div>
-            </footer>
-          </article>
-          {% endfor %}
-          <p class="read-more"><a href="/blog.html">Read more...</a></p>
-      </div>
-    </aside>
-  </body>
+        {% endfor %}
+        <p class="read-more"><a href="/blog.html">Read more...</a></p>
+    </div>
+  </aside>
+  
+  {% include analytics.html %}
+  
+</body>
 </html>
