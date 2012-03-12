@@ -21,3 +21,7 @@ That's right, this year's EuRuKo pre party will be on the lovely canals of Amste
 Tickets will cost 15 EUR for the two hour cruise, and it is important for us to know numbers in advance, so instead of dealing with money and tickets on the night, you can instead reserve a spot when buying your conference ticket.
 
 And just a reminder, the first batch of tickets will go on sale **TOMORROW**!
+
+Hope to see you on board!
+
+The EuRuKo Team
