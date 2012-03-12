@@ -439,7 +439,8 @@ nav {
     margin: 0 0 -20px 83px; }
 
   #blog article h1 {
-    font-size: 20px; }
+    font-size: 20px;
+    position: relative; }
 
   #blog footer, .blog article footer {
     margin-bottom: 38px;
