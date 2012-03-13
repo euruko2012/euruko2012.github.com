@@ -389,12 +389,15 @@ nav {
     margin: 0 auto;
     width: 917px; }
 
-  #tickets b {
-    font-weight: bold; }
-  #tickets p {
-    margin-bottom: 15px; }
-  #tickets .buy-tickets {
-    text-align: right; }
+  #tickets {
+    padding-bottom: 58px;
+    border-bottom: 1px solid #c8c5bf; }
+    #tickets b {
+      font-weight: bold; }
+    #tickets p {
+      margin-bottom: 15px; }
+    #tickets .buy-tickets {
+      text-align: right; }
 
   #speakers {
     position: relative;
