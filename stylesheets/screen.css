@@ -151,6 +151,18 @@ figcaption {
       left: 6px;
       top: 4px;
       background: url(/images/octocat-icon.png) no-repeat left top; }
+  .buy-tickets .button {
+    position: relative;
+    padding-left: 48px; }
+    .buy-tickets .button:before {
+      content: '';
+      display: block;
+      width: 31px;
+      height: 30px;
+      position: absolute;
+      left: 6px;
+      top: 4px;
+      background: url(/images/tickets-icon.png) no-repeat left top; }
 
 .button {
   padding: 0 18px;
@@ -377,6 +389,13 @@ nav {
     margin: 0 auto;
     width: 917px; }
 
+  #tickets b {
+    font-weight: bold; }
+  #tickets p {
+    margin-bottom: 15px; }
+  #tickets .buy-tickets {
+    text-align: right; }
+
   #speakers {
     position: relative;
     margin-left: 0;
@@ -397,6 +416,8 @@ nav {
       -ms-border-radius: 2px;
       -khtml-border-radius: 2px;
       border-radius: 2px; }
+    #speakers p {
+      margin-bottom: 15px; }
     #speakers figure {
       position: relative;
       overflow: hidden; }
@@ -425,8 +446,6 @@ nav {
       -webkit-transition: bottom 0.3s;
       -o-transition: bottom 0.3s;
       transition: bottom 0.3s; }
-    #speakers p {
-      margin-bottom: 15px; }
     #speakers a:hover figcaption {
       bottom: 0; }
     #speakers .call-for-proposal {

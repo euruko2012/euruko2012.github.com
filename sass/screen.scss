@@ -43,6 +43,9 @@ figcaption { background: #fafbd7; background: rgba(43, 43, 43, .9); color: #fafb
   .call-for-proposal & { position: relative; padding-left: 48px;
     &:before { content: ''; display: block; width: 34px; height: 30px; position: absolute; left: 6px; top: 4px; background: url(/images/octocat-icon.png) no-repeat left top; }
   }
+  .buy-tickets & { position: relative; padding-left: 48px;
+    &:before { content: ''; display: block; width: 31px; height: 30px; position: absolute; left: 6px; top: 4px; background: url(/images/tickets-icon.png) no-repeat left top; }
+  }
 }
 
 // =Layout
@@ -230,14 +233,19 @@ nav {
     margin: 0 auto;
     width: 917px;
   }
+  #tickets {
+    b { font-weight: bold; }
+    p { margin-bottom: 15px; }
+    .buy-tickets { text-align: right; }
+  }
   #speakers { position: relative; margin-left: 0; margin-right: 38px;
     article h1 { position: absolute; left: -9999em; }
     ul { margin: 28px 0 26px;}
     li { border: none; margin: 0 10px 0 0; display: inline-block; }
     img { @include border-radius(2px); }
+    p { margin-bottom: 15px; }
     figure { position: relative; overflow: hidden; }
     figcaption { width: 100%; height: 31px; position: absolute; left: 0; bottom: -31px; display: block; @include border-bottom-radius(2px); line-height: 31px; text-indent: 7px; @include transition(bottom .3s); }
-    p { margin-bottom: 15px; }
     a:hover figcaption { bottom: 0; }
     .call-for-proposal { width: 100%; margin-top: 15px; }
   }
