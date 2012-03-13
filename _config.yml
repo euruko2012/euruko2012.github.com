@@ -1,6 +1,6 @@
 auto: true
 safe: true
-exclude: [sass, CNAME, Gemfile, Gemfile.lock, README.md]
+exclude: [sass, CNAME, Gemfile, Gemfile.lock, README.md, config.rb]
 markdown: rdiscount
 permalink: /blog/:year/:month/:day/:title
 paginate:: 10
