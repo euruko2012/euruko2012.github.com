@@ -199,7 +199,7 @@ body > header {
     margin-top: 4px; }
 
 body > article {
-  padding: 0 20px; }
+  padding: 20px; }
   body > article h1 {
     margin-bottom: 20px; }
 
@@ -267,36 +267,15 @@ nav {
       nav ul a:hover {
         color: #ec716d; }
 
-.blog > header {
-  height: 135px; }
-  .blog > header figure {
-    width: 118px;
-    height: 118px; }
-  .blog > header hgroup {
-    margin-top: 0;
-    margin-left: 4px; }
-  .blog > header h1 {
-    display: inline-block;
-    font-size: 110px;
-    vertical-align: top; }
-  .blog > header h2 {
-    display: inline-block;
-    font-size: 30px;
-    margin-left: 26px;
-    text-align: right; }
-    .blog > header h2 b {
-      display: block; }
-      .blog > header h2 b.month {
-        font-size: 50px; }
-  .blog > header time {
-    color: #2B2B2B; }
 .blog > h1 {
-  padding-top: 38px;
-  border-top: 11px solid #C8C5BF; }
+  border-top: 11px solid #C8C5BF;
+  padding: 20px;
+  padding-bottom: 0; }
   .blog > h1 b {
     display: block;
-    margin: 0 auto;
-    width: 917px; }
+    margin: 0 auto; }
+.blog > article > div img {
+  max-width: 100%; }
 
 @media only screen and (min-width: 800px) {
   body > header hgroup {
@@ -487,6 +466,34 @@ nav {
 
   #blog article footer div {
     margin-left: 9px; }
+
+  .blog > header {
+    height: 135px; }
+    .blog > header figure {
+      width: 118px;
+      height: 118px; }
+    .blog > header hgroup {
+      margin-top: 0;
+      margin-left: 4px; }
+    .blog > header h1 {
+      display: inline-block;
+      font-size: 110px;
+      vertical-align: top; }
+    .blog > header h2 {
+      display: inline-block;
+      font-size: 30px;
+      margin-left: 26px;
+      text-align: right; }
+      .blog > header h2 b {
+        display: block; }
+        .blog > header h2 b.month {
+          font-size: 50px; }
+    .blog > header time {
+      color: #2B2B2B; }
+  .blog > h1 {
+    padding-top: 38px; }
+    .blog > h1 b {
+      width: 917px; }
 
   .blog footer, .blog article > div {
     display: inline-block;
