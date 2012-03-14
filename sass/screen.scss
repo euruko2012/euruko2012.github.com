@@ -59,7 +59,7 @@ body > header { padding: 10px; margin-bottom: 10px;
   hgroup { display: inline-block; vertical-align: top; margin-top: 10px; }
   h2 { margin-top: 4px; }
 }
-body > article { padding: 0 20px;
+body > article { padding: 20px;
   h1 { margin-bottom: 20px; }
 }
 aside { margin-top: 20px; border-top: 11px solid #c8c5bf;
@@ -130,52 +130,19 @@ nav {
 }
 
 .blog {
-  > header {
-    height: 135px;
-
-    figure {
-      width: 118px;
-      height: 118px;
-    }
-
-    hgroup {
-      margin-top: 0;
-      margin-left: 4px;
-    }
-
-    h1 {
-      display: inline-block;
-      font-size: 110px;
-      vertical-align: top;
-    }
-
-    h2 {
-      display: inline-block;
-      font-size: 30px;
-      margin-left: 26px;
-      text-align: right;
-
-      b {
-        display: block;
-
-        &.month { font-size: 50px; }
-      }
-    }
-
-    time {
-      color: #2B2B2B;
-    }
-  }
-
   > h1 {
-    padding-top: 38px;
     border-top: 11px solid #C8C5BF;
+    padding: 20px;
+    padding-bottom: 0;
 
     b {
       display: block;
       margin: 0 auto;
-      width: 917px;
     }
+  }
+  
+  > article > div img {
+    max-width: 100%;
   }
 }
 
@@ -295,6 +262,53 @@ nav {
 
   #blog article footer div {
     margin-left: 9px;
+  }  
+
+  .blog {
+    > header {
+      height: 135px;
+
+      figure {
+        width: 118px;
+        height: 118px;
+      }
+
+      hgroup {
+        margin-top: 0;
+        margin-left: 4px;
+      }
+
+      h1 {
+        display: inline-block;
+        font-size: 110px;
+        vertical-align: top;
+      }
+
+      h2 {
+        display: inline-block;
+        font-size: 30px;
+        margin-left: 26px;
+        text-align: right;
+
+        b {
+          display: block;
+
+          &.month { font-size: 50px; }
+        }
+      }
+
+      time {
+        color: #2B2B2B;
+      }
+    }
+    
+    > h1 {
+      padding-top: 38px;
+      
+      b {
+        width: 917px;
+      }
+    }
   }
 
   .blog {
