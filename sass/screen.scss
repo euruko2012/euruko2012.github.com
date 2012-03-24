@@ -140,7 +140,7 @@ nav {
       margin: 0 auto;
     }
   }
-  
+
   > article > div img {
     max-width: 100%;
   }
@@ -199,16 +199,20 @@ nav {
     margin: 0 auto;
     width: 917px;
   }
-  
+
   #sponsors {
     background: url(/images/bg_footer.png) repeat-x center bottom;
     padding: 40px 0 349px;
     border-top: 11px solid #C8C5BF;
-    
+
     h1 {
       margin-bottom: 20px;
     }
-    
+
+    div {
+        margin-bottom: 40px;
+    }
+
     h3 {
       position: absolute;
       right: 0;
@@ -221,24 +225,24 @@ nav {
       font-size: 10px;
       text-transform: uppercase;
     }
-    
+
     ul {
       overflow: hidden;
       padding-bottom: 20px;
     }
-    
+
     li {
       float: left;
       width: 284px;
       height: 180px;
       margin: 30px 0 0 30px;
       position: relative;
-      
+
       &:nth-child(3n+1) {
         clear: both;
         margin-left: 0;
       }
-      
+
       a {
         display: block;
         width: 100%;
@@ -247,18 +251,22 @@ nav {
         background: #fff;
         padding: 30px;
         @include box-sizing(border-box);
-        
+
         &:hover { border-color: #992B28; }
       }
-      
+
       img { max-width: 100%; }
+
+      &.description {
+          width: 598px;
+      }
     }
   }
-  
+
   #tickets {
     padding-bottom: 58px;
     border-bottom: 1px solid #c8c5bf;
-    
+
     b { font-weight: bold; }
     p { margin-bottom: 15px; }
     .buy-tickets { text-align: right; }
@@ -317,7 +325,7 @@ nav {
 
   #blog article footer div {
     margin-left: 9px;
-  }  
+  }
 
   .blog {
     > header {
@@ -356,10 +364,10 @@ nav {
         color: #2B2B2B;
       }
     }
-    
+
     > h1 {
       padding-top: 38px;
-      
+
       b {
         width: 917px;
       }
