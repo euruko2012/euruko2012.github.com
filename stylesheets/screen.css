@@ -413,6 +413,15 @@ nav {
         max-width: 100%; }
       #sponsors li.description {
         width: 598px; }
+    #sponsors .silver li {
+      width: 205px;
+      height: 136px; }
+      #sponsors .silver li:nth-child(3n+1) {
+        clear: none;
+        margin-left: 30px; }
+      #sponsors .silver li:nth-child(4n+1) {
+        clear: both;
+        margin-left: 0; }
 
   #tickets {
     padding-bottom: 58px;
