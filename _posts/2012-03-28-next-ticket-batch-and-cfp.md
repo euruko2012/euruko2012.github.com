@@ -16,7 +16,7 @@ We used [CET](http://en.wikipedia.org/wiki/Central_European_Time) for the announ
 ### Call for proposals
 We are amazed by the amount of positive feedback we've received regarding the system we use for proposals and the amount of amazing proposals we've received is making the decision taking more complicated, so keep it up!
 
-So far we've received **more than [85 proposals on Github!](https://github.com/euruko2012/call-for-proposals/pulls)**
+So far we've received **more than [85 proposals on GitHub!](https://github.com/euruko2012/call-for-proposals/pulls)**
 
 ### Deadline
 The <abbr title="Call For Proposals">CFP</abbr> will close this Friday, 30th of March at midnight (CEST). Make sure to submit your pull request on time!
