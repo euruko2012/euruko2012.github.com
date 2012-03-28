@@ -57,7 +57,7 @@ we thought we should tell you now before it is too late ;)
 Better cancel your soccer training, girls night out or dinner with your
 partner because the next batch of tickets will be released on
 **Wednesday
-the 28th of March at 8pm CET**. Lets try to set a new record this
+the 28th of March at 8pm CEST**. Lets try to set a new record this
 time and sell out in 30 seconds ;)
 
 We can't wait to see you all in Amsterdam!
