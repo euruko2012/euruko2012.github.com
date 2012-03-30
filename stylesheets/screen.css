@@ -62,9 +62,6 @@ h1 {
 body > header h1, body > article h1, #venue article h1 {
   font-family: "Abel", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 40px; }
-body > header h2, body > article h2, #venue article h2 {
-  font-size: 8px;
-  word-spacing: 3px; }
 body > header sup, body > article sup, #venue article sup {
   font-size: 6px;
   vertical-align: top;
