@@ -39,3 +39,6 @@ Expensive but NH has a couple hotels crawling distance from the conference venue
 Dutch architecture is great to look at, but why not stay in it as well?
 
 Maybe you are looking for a house boat, or an apartment for you and some friends to stay in, or a nice place in the Jordaan for you and your family? Whatever the case, or whatever the price range, [Airbnb](http://airbnb.com) has got you covered!
+
+Happy booking!
+The EuRuKo team
