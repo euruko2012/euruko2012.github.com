@@ -129,6 +129,10 @@ nav {
 }
 
 .blog {
+  article {
+    h1, h2 { font-family: Palatino, cursive, serif; }
+  }
+
   > h1 {
     border-top: 11px solid #C8C5BF;
     padding: 20px;
@@ -307,7 +311,6 @@ nav {
   }
 
   #blog article, .blog article {
-    h1, h2 { font-family: Palatino, cursive, serif; }
     h1 { font-size: 30px; margin: 0 0 -20px 83px; }
     h2 { font-size: 24px; margin: 12px 0 24px 0; }
   }
