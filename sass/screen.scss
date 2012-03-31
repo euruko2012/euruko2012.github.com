@@ -256,6 +256,7 @@ nav {
         @include box-sizing(border-box);
 
         &:hover { border-color: #992B28; }
+        &.open { text-align: center; padding-top: 55px; }
       }
 
       p {
