@@ -410,7 +410,7 @@ nav {
           border-color: #992B28; }
         #sponsors li > a.open {
           text-align: center;
-          padding-top: 40px; }
+          padding-top: 55px; }
       #sponsors li p {
         margin-bottom: 15px; }
       #sponsors li p:last-child {
@@ -422,11 +422,9 @@ nav {
         height: auto; }
     #sponsors .silver li {
       width: 205px;
-      height: 136px; }
+      height: 136px;
+      margin-left: 150px; }
       #sponsors .silver li:nth-child(3n+1) {
-        clear: none;
-        margin-left: 30px; }
-      #sponsors .silver li:nth-child(4n+1) {
         clear: both;
         margin-left: 0; }
 
