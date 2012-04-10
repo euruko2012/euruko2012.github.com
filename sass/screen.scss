@@ -128,7 +128,7 @@ nav {
   }
 }
 
-.blog {
+.blog, .schedule {
   article {
     h1, h2 { font-family: Palatino, cursive, serif; }
   }
@@ -146,6 +146,64 @@ nav {
 
   > article > div img {
     max-width: 100%;
+  }
+}
+
+table {
+  width: 100%;
+  
+  th, td {
+    padding: 0 20px;
+  }
+  
+  tr {
+    line-height: 2.5;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    
+    &:nth-child(even) {
+      background: #F5F3ED;
+    }
+  }
+  
+  thead {
+    border: 1px solid #992B28;
+    border-bottom: none;
+    
+    tr {
+      background: #992B28;
+      color: #fff;
+      text-shadow: none;
+      
+      th { font-weight: bold;}
+    }
+  }
+  
+  tbody {
+    border: 1px solid #ccc;
+  }
+}
+
+article section.special-event {
+  overflow: hidden;
+  margin-bottom: 50px;
+  
+  p {
+    width: 60%;
+  }
+  
+  img {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 15px;
+    margin-right: 20px;
+    max-width: 120px;
+    float: left;
+  }
+  
+  h3 {
+    padding-top: 0;
+    margin-bottom: 15px;
   }
 }
 
@@ -174,7 +232,7 @@ nav {
 
   //= Color
   body { background-image: url(/images/header-bg.jpg); }
-  body.blog { background-image: url(/images/small-header-bg.jpg); background-position-y: 37px; }
+  body.blog, body.schedule { background-image: url(/images/small-header-bg.jpg); background-position-y: 37px; }
 
   //= Layout
 
@@ -311,7 +369,7 @@ nav {
     .call-for-proposal { width: 100%; margin-top: 15px; }
   }
 
-  #blog article, .blog article {
+  #blog article, .blog article, .schedule article {
     h1 { font-size: 30px; margin: 0 0 -20px 83px; }
     h2 { font-size: 24px; margin: 12px 0 24px 0; }
   }
@@ -328,7 +386,7 @@ nav {
     position: relative;
   }
 
-  #blog, .blog article {
+  #blog, .blog article, .schedule article {
     footer {
       margin-bottom: 38px;
       font-size: 16px;
@@ -354,7 +412,7 @@ nav {
     margin-left: 9px;
   }
 
-  .blog {
+  .blog, .schedule {
     > header {
       height: 135px;
 
@@ -401,7 +459,7 @@ nav {
     }
   }
 
-  .blog {
+  .blog, .schedule {
     footer, article > div {
       display: inline-block;
       vertical-align: top;
@@ -476,5 +534,5 @@ nav {
 
 @media only screen and (min-width: 1500px) {
   body { background-size: 100% 619px; }
-  body.blog { background-size: 100% 217px; }
+  body.blog, body.schedule { background-size: 100% 217px; }
 }
