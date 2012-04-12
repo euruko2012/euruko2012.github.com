@@ -286,6 +286,18 @@ nav {
         }
       }
     }
+    .supporters {
+      li {
+        height: auto;
+
+        span {
+          float: right;
+          margin-right: 10px;
+          font-style: italic;
+          color: #848484;
+        }
+      }
+    }
   }
 
   #tickets {
