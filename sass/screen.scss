@@ -129,7 +129,7 @@ nav {
   }
 }
 
-.blog, .schedule {
+.blog, .schedule, .speakers {
   article {
     h1, h2 { font-family: Palatino, cursive, serif; }
   }
@@ -208,6 +208,58 @@ article section.special-event {
   }
 }
 
+#speakers-list {
+  margin-left: -11px;
+  
+  li {
+    border-left: 11px solid #C8C5BF;
+    margin-left: 90px;
+    padding-bottom: 50px;
+    
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+  
+  section {
+    margin-left: -90px;
+    overflow: hidden;
+  }
+  
+  p {
+    padding-left: 210px;
+    max-width: 500px;
+  }
+  
+  h2, h3 { 
+    display: inline-block; 
+    margin-bottom: 0;
+  }
+  
+  h3 {
+    &:before {
+      content: "-";
+      padding: 0 14px;
+    } 
+  }
+  
+  footer {
+    margin: 15px 0;
+    color: #373737;
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  img {
+    float: left;
+    margin-right: 40px;
+    border: 5px solid #C8C5BF;
+    @include border-radius(10px);
+    width: 160px;
+    height: 160px;
+  }
+}
+
 @media only screen and (min-width: 800px) {
   //= Typography
 
@@ -233,7 +285,7 @@ article section.special-event {
 
   //= Color
   body { background-image: url(/images/header-bg.jpg); }
-  body.blog, body.schedule { background-image: url(/images/small-header-bg.jpg); background-position-y: 37px; }
+  body.blog, body.schedule, body.speakers { background-image: url(/images/small-header-bg.jpg); background-position-y: 37px; }
 
   //= Layout
 
@@ -379,7 +431,7 @@ article section.special-event {
     .call-for-proposal { width: 100%; margin-top: 15px; }
   }
 
-  #blog article, .blog article, .schedule article {
+  #blog article, .blog article, .schedule article, .speakers article {
     h1 { font-size: 30px; margin: 0 0 -20px 83px; }
     h2 { font-size: 24px; margin: 12px 0 24px 0; }
   }
@@ -422,7 +474,7 @@ article section.special-event {
     margin-left: 9px;
   }
 
-  .blog, .schedule {
+  .blog, .schedule, .speakers {
     > header {
       height: 135px;
 
@@ -469,7 +521,7 @@ article section.special-event {
     }
   }
 
-  .blog, .schedule {
+  .blog, .schedule, .speakers {
     footer, article > div {
       display: inline-block;
       vertical-align: top;
@@ -544,5 +596,5 @@ article section.special-event {
 
 @media only screen and (min-width: 1500px) {
   body { background-size: 100% 619px; }
-  body.blog, body.schedule { background-size: 100% 217px; }
+  body.blog, body.schedule, body.speakers { background-size: 100% 217px; }
 }
