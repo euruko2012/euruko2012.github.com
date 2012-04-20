@@ -336,14 +336,23 @@ article section.special-event {
       li {
         width: 205px;
         height: 136px;
+        margin-left: 150px;
 
         &:nth-child(3n+1) {
-          clear: none;
-          margin-left: 30px;
-        }
-        &:nth-child(4n+1) {
           clear: both;
           margin-left: 0;
+        }
+      }
+    }
+    .supporters {
+      li {
+        height: auto;
+
+        span {
+          float: right;
+          margin-right: 10px;
+          font-style: italic;
+          color: #848484;
         }
       }
     }
