@@ -19,7 +19,7 @@ It is with great pleasure to announce our two awesome Keynote speakers for this 
 ## Yukihiro Matsumoto - Ruby Chief Architect, Heroku
 [Website](http://www.rubyist.net/~matz/) - [Twitter](https://twitter.com/yukihiro_matz) - [Github](https://github.com/matz)
 
-Matz needs no presentation. As the creator of the beautiful and elegant language we all love, we are honored to have Matz joining us for this year's EuRuKo.
+Matz needs no introduction. As the creator of the beautiful and elegant language we all love, we are honored to have Matz joining us for this year's EuRuKo.
 
 Although, did you expect anything less? ;)
 
