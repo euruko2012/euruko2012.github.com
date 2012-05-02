@@ -53,6 +53,9 @@ p, figcaption {
   font-size: 14px;
   line-height: 22px; }
 
+em {
+  font-style: italic; }
+
 h1, h2 {
   font-family: "Vast Shadow", cursive, serif; }
 
@@ -264,17 +267,55 @@ nav {
       nav ul a:hover {
         color: #ec716d; }
 
-.blog article h1, .blog article h2 {
+.blog article h1, .blog article h2, .schedule article h1, .schedule article h2 {
   font-family: Palatino, cursive, serif; }
-.blog > h1 {
+.blog > h1, .schedule > h1 {
   border-top: 11px solid #C8C5BF;
   padding: 20px;
   padding-bottom: 0; }
-  .blog > h1 b {
+  .blog > h1 b, .schedule > h1 b {
     display: block;
     margin: 0 auto; }
-.blog > article > div img {
+.blog > article > div img, .schedule > article > div img {
   max-width: 100%; }
+
+table {
+  width: 100%; }
+  table th, table td {
+    padding: 0 20px; }
+  table tr {
+    line-height: 2.5;
+    background: #fff;
+    border-bottom: 1px solid #ccc; }
+    table tr:nth-child(even) {
+      background: #F5F3ED; }
+  table thead {
+    border: 1px solid #992B28;
+    border-bottom: none; }
+    table thead tr {
+      background: #992B28;
+      color: #fff;
+      text-shadow: none; }
+      table thead tr th {
+        font-weight: bold; }
+  table tbody {
+    border: 1px solid #ccc; }
+
+article section.special-event {
+  overflow: hidden;
+  margin-bottom: 50px; }
+  article section.special-event p {
+    width: 60%; }
+  article section.special-event img {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 15px;
+    margin-right: 20px;
+    max-width: 120px;
+    float: left; }
+  article section.special-event h3 {
+    padding-top: 0;
+    margin-bottom: 15px; }
 
 @media only screen and (min-width: 800px) {
   body > header hgroup {
@@ -320,7 +361,7 @@ nav {
   body {
     background-image: url(/images/header-bg.jpg); }
 
-  body.blog {
+  body.blog, body.schedule {
     background-image: url(/images/small-header-bg.jpg);
     background-position-y: 37px; }
 
@@ -501,10 +542,10 @@ nav {
       width: 100%;
       margin-top: 15px; }
 
-  #blog article h1, .blog article h1 {
+  #blog article h1, .blog article h1, .schedule article h1 {
     font-size: 30px;
     margin: 0 0 -20px 83px; }
-  #blog article h2, .blog article h2 {
+  #blog article h2, .blog article h2, .schedule article h2 {
     font-size: 24px;
     margin: 12px 0 24px 0; }
 
@@ -520,83 +561,83 @@ nav {
     font-size: 20px;
     position: relative; }
 
-  #blog footer, .blog article footer {
+  #blog footer, .blog article footer, .schedule article footer {
     margin-bottom: 38px;
     font-size: 16px; }
-    #blog footer div, .blog article footer div {
+    #blog footer div, .blog article footer div, .schedule article footer div {
       display: inline-block;
       vertical-align: bottom;
       margin-left: 15px; }
-    #blog footer img, .blog article footer img {
+    #blog footer img, .blog article footer img, .schedule article footer img {
       vertical-align: top; }
-    #blog footer time, .blog article footer time {
+    #blog footer time, .blog article footer time, .schedule article footer time {
       font-style: italic;
       color: #848484; }
 
   #blog article footer div {
     margin-left: 9px; }
 
-  .blog > header {
+  .blog > header, .schedule > header {
     height: 135px; }
-    .blog > header figure {
+    .blog > header figure, .schedule > header figure {
       width: 118px;
       height: 118px; }
-    .blog > header hgroup {
+    .blog > header hgroup, .schedule > header hgroup {
       margin-top: 0;
       margin-left: 4px; }
-    .blog > header h1 {
+    .blog > header h1, .schedule > header h1 {
       display: inline-block;
       font-size: 110px;
       vertical-align: top; }
-    .blog > header h2 {
+    .blog > header h2, .schedule > header h2 {
       display: inline-block;
       font-size: 30px;
       margin-left: 26px;
       text-align: right; }
-      .blog > header h2 b {
+      .blog > header h2 b, .schedule > header h2 b {
         display: block; }
-        .blog > header h2 b.month {
+        .blog > header h2 b.month, .schedule > header h2 b.month {
           font-size: 50px; }
-    .blog > header time {
+    .blog > header time, .schedule > header time {
       color: #2B2B2B; }
-  .blog > h1 {
+  .blog > h1, .schedule > h1 {
     padding-top: 38px; }
-    .blog > h1 b {
+    .blog > h1 b, .schedule > h1 b {
       width: 917px; }
 
-  .blog footer, .blog article > div {
+  .blog footer, .blog article > div, .schedule footer, .schedule article > div {
     display: inline-block;
     vertical-align: top; }
-  .blog div > h1, .blog div > h3, .blog article > div p {
+  .blog div > h1, .blog div > h3, .blog article > div p, .schedule div > h1, .schedule div > h3, .schedule article > div p {
     margin: 0;
     text-indent: 0;
     padding-bottom: 24px; }
-  .blog article > div p:last-child {
+  .blog article > div p:last-child, .schedule article > div p:last-child {
     padding-bottom: 0; }
-  .blog article.post {
+  .blog article.post, .schedule article.post {
     border-bottom: 1px solid #C8C5BF;
     padding-bottom: 45px; }
-  .blog footer {
+  .blog footer, .schedule footer {
     width: 274px; }
-  .blog article > div {
+  .blog article > div, .schedule article > div {
     width: 620px;
     margin-left: 20px; }
-  .blog article {
+  .blog article, .schedule article {
     margin-bottom: 45px; }
-    .blog article b, .blog article strong {
+    .blog article b, .blog article strong, .schedule article b, .schedule article strong {
       font-weight: bold; }
-    .blog article p {
+    .blog article p, .schedule article p {
       margin-bottom: 8px; }
-    .blog article h3 {
+    .blog article h3, .schedule article h3 {
       font-size: 20px;
       padding-top: 12px; }
-    .blog article ul {
+    .blog article ul, .schedule article ul {
       margin-bottom: 24px; }
-    .blog article q {
+    .blog article q, .schedule article q {
       font-style: italic; }
-      .blog article q:before {
+      .blog article q:before, .schedule article q:before {
         content: '“'; }
-      .blog article q:after {
+      .blog article q:after, .schedule article q:after {
         content: '”'; }
 
   .extra-info section {
@@ -610,5 +651,5 @@ nav {
   body {
     background-size: 100% 619px; }
 
-  body.blog {
+  body.blog, body.schedule {
     background-size: 100% 217px; } }

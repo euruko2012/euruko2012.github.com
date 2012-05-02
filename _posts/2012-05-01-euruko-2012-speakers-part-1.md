@@ -4,7 +4,7 @@ author: "Josh Kalderimis"
 picture: "/images/avatars/josh.png"
 layout: post
 ---
-When we opened our Call for Proposals using GitHub Pull Requests we were astounded by the response. Apart from the sheer number and quality of proposals, everyone seemed to love the openness and transparency of using such an open and collaborative medium.
+When we opened our Call for Proposals using GitHub Pull Requests we were astounded by the response. Apart from the sheer number and quality of proposals, everyone seemed to love the transparency of using such an open and collaborative medium.
 
 With the 1st of June fast approaching, and several other amazing conferences also releasing their speakers, we were running a little bit behind schedule. We are very sorry for the delay, but we hope to make up with some fantastic speakers!
 
@@ -78,15 +78,15 @@ Fun Fact: We hear Roy loves a good vodka or 10 ;)
 
 
 
-And last but not least!
+_And last but not least!_
 
 ## Elise Huard
 [Website](http://jabberwocky.eu/) - [Twitter](https://twitter.com/elise_huard) - [Github](https://github.com/elisehuard)
 
 Living in the land of muscles, and Jean Claude Van Damme, Elise has been a software developer in Belgium for more than 10 years. She has used a variety of languages on a variety of environments, and has spoken at a variety of conferences all over the world.
 
-We hate to admit it, but Belgium makes some awesome beers, let her know how much you love a Duvel or Chimay.
-
+We hate to admit it, but Belgium makes some awesome beers, let her know how much you love a Duvel or Chimay.  
+  
 
 
 We are so excited to be welcoming these fantastic speakers to Amsterdam, but hold onto your seats because more will follow soon!
