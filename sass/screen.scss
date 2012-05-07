@@ -215,9 +215,11 @@ article section.special-event {
     border-left: 11px solid #C8C5BF;
     margin-left: 90px;
     padding-bottom: 50px;
+    position: relative;
     
     &:last-child {
       padding-bottom: 0;
+      border-left: none;
     }
   }
   
@@ -243,11 +245,24 @@ article section.special-event {
     } 
   }
   
+  h4 {
+    padding: 10px 0 20px;
+    font-size: 20px;
+    color: #4c4c4c;
+  }
+  
   footer {
-    margin: 15px 0;
+    padding: 0;
     color: #373737;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
+    position: absolute;
+    top: 180px;
+    background: #F5F3ED;
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    line-height: 20px;
   }
   
   img {
