@@ -16,7 +16,7 @@ This is all being made possible by the fantastic sponsorship by Heroku. Many tha
 
 [![Heroku](/images/sponsors/heroku.png "Image title")](http://www.heroku.com "Heroku")
 
-The day will start at 10am and end around 6pm. The venue is in the process of being confirmed, but will be in the centre of Amsterdam. We will provider coffee, water, soft-drinks, snacks, and the all important lunch during the day.
+The day will start at 10am and end around 4pm. The venue is in the process of being confirmed, but will be in the centre of Amsterdam. We will provider coffee, water, soft-drinks, snacks, and the all important lunch during the day.
 
 The number of spots is limited, so be quick! You can [register for the hack day here](http://eurukohackday.eventbrite.com/).
 
