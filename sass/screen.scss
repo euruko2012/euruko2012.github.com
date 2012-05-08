@@ -152,34 +152,34 @@ nav {
 
 table {
   width: 100%;
-  
+
   th, td {
     padding: 0 20px;
   }
-  
+
   tr {
     line-height: 2.5;
     background: #fff;
     border-bottom: 1px solid #ccc;
-    
+
     &:nth-child(even) {
       background: #F5F3ED;
     }
   }
-  
+
   thead {
     border: 1px solid #992B28;
     border-bottom: none;
-    
+
     tr {
       background: #992B28;
       color: #fff;
       text-shadow: none;
-      
+
       th { font-weight: bold;}
     }
   }
-  
+
   tbody {
     border: 1px solid #ccc;
   }
@@ -188,11 +188,11 @@ table {
 article section.special-event {
   overflow: hidden;
   margin-bottom: 50px;
-  
+
   p {
     width: 60%;
   }
-  
+
   img {
     border: 1px solid #ccc;
     background: #fff;
@@ -201,7 +201,7 @@ article section.special-event {
     max-width: 120px;
     float: left;
   }
-  
+
   h3 {
     padding-top: 0;
     margin-bottom: 15px;
@@ -210,47 +210,47 @@ article section.special-event {
 
 #speakers-list {
   margin-left: -11px;
-  
+
   li {
     border-left: 11px solid #C8C5BF;
     margin-left: 90px;
     padding-bottom: 50px;
     position: relative;
-    
+
     &:last-child {
       padding-bottom: 0;
       border-left: none;
     }
   }
-  
+
   section {
     margin-left: -90px;
     overflow: hidden;
   }
-  
+
   p {
     padding-left: 210px;
     max-width: 500px;
   }
-  
-  h2, h3 { 
-    display: inline-block; 
+
+  h2, h3 {
+    display: inline-block;
     margin-bottom: 0;
   }
-  
+
   h3 {
     &:before {
       content: "-";
       padding: 0 14px;
-    } 
+    }
   }
-  
+
   h4 {
     padding: 10px 0 20px;
     font-size: 20px;
     color: #4c4c4c;
   }
-  
+
   footer {
     padding: 0;
     color: #373737;
@@ -264,7 +264,7 @@ article section.special-event {
     text-align: center;
     line-height: 20px;
   }
-  
+
   img {
     float: left;
     margin-right: 40px;
@@ -300,7 +300,7 @@ article section.special-event {
 
   //= Color
   body { background-image: url(/images/header-bg.jpg); }
-  body.blog, body.schedule, body.speakers { background-image: url(/images/small-header-bg.jpg); background-position-y: 37px; }
+  body.blog, body.schedule, body.speakers { background-image: url(/images/small-header-bg.jpg); background-position: 0px 37px; }
 
   //= Layout
 
