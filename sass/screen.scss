@@ -436,15 +436,46 @@ article section.special-event {
     .buy-tickets { text-align: right; }
   }
   #speakers { position: relative; margin-left: 0; margin-right: 38px;
-    article h1 { position: absolute; left: -9999em; }
-    ul { margin: 28px 0 26px;}
-    li { border: none; margin: 0 10px 0 0; display: inline-block; }
-    img { @include border-radius(2px); }
-    p { margin-bottom: 15px; }
-    figure { position: relative; overflow: hidden; }
-    figcaption { width: 100%; height: 31px; position: absolute; left: 0; bottom: -31px; display: block; @include border-bottom-radius(2px); line-height: 31px; text-indent: 7px; @include transition(bottom .3s); }
-    a:hover figcaption { bottom: 0; }
-    .call-for-proposal { width: 100%; margin-top: 15px; }
+    
+    img {
+      border: 4px solid #C8C5BF;
+      @include border-radius(8px);
+    }
+    
+    li {
+      border: none;
+      display: inline-block;
+      text-align: center;
+      margin-right: 10px;
+      position: relative;
+      
+      &:nth-child(4n) {
+        margin-right: 0;
+        
+        &:after {
+          display: none;
+        }
+      }
+      
+      &:nth-child(n+5) {
+        margin-top: 10px;
+      }
+      
+      &:after {
+        content: "";
+        width: 10px;
+        height: 4px;
+        position: absolute;
+        right: -10px;
+        top: 50px;
+        background: #C8C5BF;
+      }
+      
+      h2 {
+        font-size: 12px;
+        font-family: Palatino, cursive, serif;
+      }
+    }
   }
 
   #blog article, .blog article, .schedule article, .speakers article {
