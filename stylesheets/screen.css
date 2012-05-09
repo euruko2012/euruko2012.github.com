@@ -812,8 +812,8 @@ article section.special-event h3 {
 
   /* line 430, ../sass/screen.scss */
   #tickets {
-    padding-bottom: 58px;
-    border-bottom: 1px solid #c8c5bf;
+    padding-top: 40px;
+    border-top: 1px solid #c8c5bf;
   }
   /* line 434, ../sass/screen.scss */
   #tickets b {
