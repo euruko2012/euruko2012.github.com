@@ -90,6 +90,7 @@ We often hear crazy reasons why people got into programming, welllllll, did you 
 Do you have a neopet? Maybe bring one to EuRuKo and get some special 'hints' from Mitchell ;)
 
 
+-----------------------
 
 So there we have it, all 13 speakers, including two amazing keynote speakers.
 
