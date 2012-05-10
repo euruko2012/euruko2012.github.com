@@ -56,7 +56,7 @@ His open-source time is spent on [CocoaPods](http://cocoapods.org/), [MacRuby](h
 If, at some point, you might think "who’s making that music?", then it might be Eloy, who’s constantly beatboxing unconsciously. If you are up for it we can organize a beatbox showdown on stage!
 
 
-## Vicent Marti - GitHub
+## Vicent Martí - GitHub
 [Twitter](https://twitter.com/tanoku) - [Github](https://github.com/tanoku)
 
 Vicent Martí has a name which is difficult to pronounce. Despite his main occupation as bananologist, he spends his spare time working full time at GitHub, where he builds tools for the people who build the Internet.
