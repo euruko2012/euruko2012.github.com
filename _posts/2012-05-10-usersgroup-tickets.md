@@ -1,7 +1,7 @@
 ---
 title: "Users Group Tickets"
 author: "Alex Koppel"
-picture: "/images/avatars/alex.jpg"
+picture: "/images/avatars/alex.png"
 layout: post
 ---
 We're thrilled to announce the results of the recent Ruby Users Group ticket initiative.  We wanted to give something back to the users groups that play such a huge and important role in the community, so we dedicated a block of tickets that user group organizers could write in and request.  The response was been fantastic, and we're excited to announce that all the organizations which applied will get tickets.
