@@ -81,7 +81,7 @@ _And the final big welcome too......_
 ## Mitchell Hashimoto - Klip
 [Website](http://mitchellhashimoto.com) - [Twitter](https://twitter.com/mitchellh) - [Github](https://github.com/mitchellh)
 
-When we think 'Mitchell Hashimoto' the first thing that comes to mind for us is Vagrant, the awesome tool for creating and distributing virtualized development environments. In short, it makes VirtualBox awesome to use!
+When we think 'Mitchell Hashimoto' the first thing that comes to mind for us is [Vagrant](http://vagrantup.com/), the awesome tool for creating and distributing virtualized development environments. In short, it makes [VirtualBox](https://www.virtualbox.org/) awesome to use!
 
 Mitchell spends his days as an operations engineer for a start-up company in San Francisco. He is Passionate (with a capital P) about all things open source, and boy does he show this passion with awesome contributions to the community.
 
