@@ -9,7 +9,7 @@ Picking speakers for a conference is a hard job, you have so many things to take
 
 Many times during the selection process we were left thinking 'this sucks, we need to add more speakers!' In fact, we said that enough times that we did just that, we created a mixture of 20min and 30min talk slots (each with 10 minutes for questions, and 5 minutes for changeover) just so we could add two more spots, and we think that it was worth it!
 
-We are sorry we couldn't accept more talks, because frankly we would have loved to accept all of them! If you would like further feedback please contact Josh (josh@euruko2012.org) and he will do his best to help.
+We are sorry we couldn't accept more talks, because frankly we would have loved to accept all of them! If you would like further feedback please contact [Josh](mailto:josh@euruko2012.org) and he will do his best to help.
 
 So without a further ado, here are the final speakers for EuRuKo 2012!
 
