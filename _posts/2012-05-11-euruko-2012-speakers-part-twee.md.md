@@ -78,7 +78,7 @@ Want to show him you know your stuff? Bring along a ZX Spectrum with Wolfenstein
 
 _And the final big welcome too......_
 
-## Mitchell Hashimoto - Klip
+## Mitchell Hashimoto - Kiip
 [Website](http://mitchellhashimoto.com) - [Twitter](https://twitter.com/mitchellh) - [Github](https://github.com/mitchellh)
 
 When we think 'Mitchell Hashimoto' the first thing that comes to mind for us is [Vagrant](http://vagrantup.com/), the awesome tool for creating and distributing virtualized development environments. In short, it makes [VirtualBox](https://www.virtualbox.org/) awesome to use!
