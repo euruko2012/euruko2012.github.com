@@ -5,7 +5,7 @@ picture: "/images/avatars/danny.png"
 layout: post
 ---
 
-Picking speakers for a conference is a hard job, you have so many things to take into account, like the theme, how many spots, experienced speaker vs first timer, local vs oversees, and the dreaded limited number of spots. Also, since we were using Pull Requests, the process was open, which meant we had lots of comments to take into account. (eg. do we take a talk which has lots of +1s or one with a few really good comments?)
+Picking speakers for a conference is a hard job, you have so many things to take into account, like the theme, how many spots, experienced speaker vs first timer, local vs overseas, and the dreaded limited number of spots. Also, since we were using Pull Requests, the process was open, which meant we had lots of comments to take into account. (e.g. do we take a talk which has lots of +1's or one with a few really good comments?)
 
 Many times during the selection process we were left thinking 'this sucks, we need to add more speakers!' In fact, we said that enough times that we did just that, we created a mixture of 20min and 30min talk slots (each with 10 minutes for questions, and 5 minutes for changeover) just so we could add two more spots, and we think that it was worth it!
 
