@@ -67,7 +67,7 @@ We are slightly worried about his love for bananas, he even requested he have so
 
 
 ## Martin Rehfeld - Wooga
-[Website](http://inside.glnetworks.de) - [Twitter](https://twitter.com/martinrehfeld) - [Github](https://github.com/klickmich)
+[Website](http://inside.glnetworks.de) - [Twitter](https://twitter.com/klickmich) - [Github](https://github.com/martinrehfeld)
 
 Did someone say German engineering? Let me tell you about German engineering: It is boring! It is thorough, it is efficient, and it just works.
 
