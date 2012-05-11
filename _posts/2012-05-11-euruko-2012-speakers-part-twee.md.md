@@ -46,7 +46,7 @@ True story : Many kids have asked for Steves autograph thinking that he is Skril
 Instead of EuRuKo trying for the largest Friday Hug, this year we will be aiming for the largest number of audience member with a Skrillex haircut!
 
 
-## Eloy Durán - Fngtps
+## Eloy Durán - Fingertips
 [Website](http://soup.superalloy.nl) - [Twitter](https://twitter.com/alloy) - [Github](https://github.com/alloy)
 
 Eloy, who was born and raised in this year’s host city ‘beautiful Amsterdam’, has long been working at the intersection of open-source Ruby and Objective-C/Cocoa. This combination has lead to his current job at [Fingertips](http://www.fngtps.com/) where he works on Web, iPhone, iPad and Mac OS X apps.
