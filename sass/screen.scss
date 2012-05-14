@@ -449,7 +449,7 @@ article section.special-event {
       margin-right: 10px;
       position: relative;
       
-      &:nth-child(4n) {
+      &:nth-child(4n), &:last-child {
         margin-right: 0;
         
         &:after {

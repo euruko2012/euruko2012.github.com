@@ -853,11 +853,11 @@ article section.special-event h3 {
     position: relative;
   }
   /* line 452, ../sass/screen.scss */
-  #speakers li:nth-child(4n) {
+  #speakers li:nth-child(4n), #speakers li:last-child {
     margin-right: 0;
   }
   /* line 455, ../sass/screen.scss */
-  #speakers li:nth-child(4n):after {
+  #speakers li:nth-child(4n):after, #speakers li:last-child:after {
     display: none;
   }
   /* line 460, ../sass/screen.scss */
