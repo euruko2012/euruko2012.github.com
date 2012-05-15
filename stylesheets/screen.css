@@ -853,11 +853,11 @@ article section.special-event h3 {
     position: relative;
   }
   /* line 452, ../sass/screen.scss */
-  #speakers li:nth-child(4n) {
+  #speakers li:nth-child(4n), #speakers li:last-child {
     margin-right: 0;
   }
   /* line 455, ../sass/screen.scss */
-  #speakers li:nth-child(4n):after {
+  #speakers li:nth-child(4n):after, #speakers li:last-child:after {
     display: none;
   }
   /* line 460, ../sass/screen.scss */
@@ -1058,13 +1058,28 @@ article section.special-event h3 {
     text-align: right;
   }
 }
+/* line 645, ../sass/screen.scss */
+#sponsors .additional-sponsors li {
+  width: 206px;
+  height: 136px;
+}
+/* line 649, ../sass/screen.scss */
+#sponsors .additional-sponsors li:nth-child(3n+1) {
+  clear: none;
+  margin-left: 30px;
+}
+/* line 654, ../sass/screen.scss */
+#sponsors .additional-sponsors li:first-child {
+  margin-left: 0;
+}
+
 @media only screen and (min-width: 1500px) {
-  /* line 645, ../sass/screen.scss */
+  /* line 661, ../sass/screen.scss */
   body {
     background-size: 100% 619px;
   }
 
-  /* line 646, ../sass/screen.scss */
+  /* line 662, ../sass/screen.scss */
   body.blog, body.schedule, body.speakers {
     background-size: 100% 217px;
   }

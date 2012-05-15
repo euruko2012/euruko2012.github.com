@@ -449,7 +449,7 @@ article section.special-event {
       margin-right: 10px;
       position: relative;
       
-      &:nth-child(4n) {
+      &:nth-child(4n), &:last-child {
         margin-right: 0;
         
         &:after {
@@ -637,6 +637,22 @@ article section.special-event {
     .read-more {
       margin-top: 30px;
       text-align: right;
+    }
+  }
+}
+
+#sponsors .additional-sponsors {
+  li {
+    width: 206px;
+    height: 136px;
+    
+    &:nth-child(3n+1) {
+      clear: none;
+      margin-left: 30px;
+    }
+    
+    &:first-child {
+      margin-left: 0;
     }
   }
 }
