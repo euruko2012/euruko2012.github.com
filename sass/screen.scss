@@ -3,10 +3,10 @@
 
 // =Typography
 
-body { font-family: Palatino, cursive, serif; }
+body { font-family: Palatino, Helvetica, sans-serif; }
 p, figcaption { font-size: 14px; line-height: 22px; }
 em { font-style: italic; }
-h1, h2 { font-family: "Vast Shadow", cursive, serif; }
+h1, h2 { font-family: "Vast Shadow", Helvetica, sans-serif; }
 h1 { font-size: 25px; }
 body > header, body > article, #venue article {
   h1 { font-family: "Abel", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 40px; }
@@ -17,7 +17,7 @@ body > article h1 { font-size: 20px; line-height: 24px; }
 a { text-decoration: none; }
 .button { font-family: Arial, Helvetica; font-style: bold; text-transform: uppercase; }
 #venue article h1 { font-size: 25px; }
-#speakers h1 { font-family: Palatino, cursive, serif; font-size: 18px; }
+#speakers h1 { font-family: Palatino, Helvetica, sans-serif; font-size: 18px; }
 
 // =Color
 
@@ -131,7 +131,7 @@ nav {
 
 .blog, .schedule, .speakers {
   article {
-    h1, h2 { font-family: Palatino, cursive, serif; }
+    h1, h2 { font-family: Palatino, Helvetica, sans-serif; }
   }
 
   > h1 {
@@ -299,7 +299,7 @@ table {
     h1 { font-size: 30px; line-height: 40px; text-indent: 28px; }
   }
   p { font-size: 16px; line-height: 25px; }
-  #speakers h1 { font-family: "Vast Shadow", cursive, serif; font-size: 25px; }
+  #speakers h1 { font-family: "Vast Shadow", Helvetica, sans-serif; font-size: 25px; }
   .call-for-proposal { text-align: right; }
 
   //= Color
@@ -476,7 +476,7 @@ table {
 
       h2 {
         font-size: 12px;
-        font-family: Palatino, cursive, serif;
+        font-family: Palatino, Helvetica, sans-serif;
       }
     }
   }

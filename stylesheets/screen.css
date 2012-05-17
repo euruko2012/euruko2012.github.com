@@ -47,7 +47,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
-  font-family: Palatino, cursive, serif; }
+  font-family: Palatino, Helvetica, sans-serif; }
 
 p, figcaption {
   font-size: 14px;
@@ -57,7 +57,7 @@ em {
   font-style: italic; }
 
 h1, h2 {
-  font-family: "Vast Shadow", cursive, serif; }
+  font-family: "Vast Shadow", Helvetica, sans-serif; }
 
 h1 {
   font-size: 25px; }
@@ -89,7 +89,7 @@ a {
   font-size: 25px; }
 
 #speakers h1 {
-  font-family: Palatino, cursive, serif;
+  font-family: Palatino, Helvetica, sans-serif;
   font-size: 18px; }
 
 body {
@@ -268,7 +268,7 @@ nav {
         color: #ec716d; }
 
 .blog article h1, .blog article h2, .schedule article h1, .schedule article h2, .speakers article h1, .speakers article h2 {
-  font-family: Palatino, cursive, serif; }
+  font-family: Palatino, Helvetica, sans-serif; }
 .blog > h1, .schedule > h1, .speakers > h1 {
   border-top: 11px solid #C8C5BF;
   padding: 20px;
@@ -404,7 +404,7 @@ table {
     line-height: 25px; }
 
   #speakers h1 {
-    font-family: "Vast Shadow", cursive, serif;
+    font-family: "Vast Shadow", Helvetica, sans-serif;
     font-size: 25px; }
 
   .call-for-proposal {
@@ -572,7 +572,7 @@ table {
         background: #C8C5BF; }
       #speakers li h2 {
         font-size: 12px;
-        font-family: Palatino, cursive, serif; }
+        font-family: Palatino, Helvetica, sans-serif; }
 
   #blog article h1, .blog article h1, .schedule article h1, .speakers article h1 {
     font-size: 30px;
