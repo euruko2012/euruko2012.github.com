@@ -415,7 +415,7 @@ table {
 
   body.blog, body.schedule, body.speakers {
     background-image: url(/images/small-header-bg.jpg);
-    background-position: 0px 37px; }
+    background-position: 0px 15px; }
 
   body > header, body > article, aside section, nav ul, #sponsors > div {
     width: 917px;
@@ -624,7 +624,7 @@ table {
     .blog > header h2, .schedule > header h2, .speakers > header h2 {
       display: inline-block;
       font-size: 30px;
-      margin-left: 26px;
+      margin-left: 25px;
       text-align: right; }
       .blog > header h2 b, .schedule > header h2 b, .speakers > header h2 b {
         display: block; }
@@ -684,4 +684,5 @@ table {
     background-size: 100% 619px; }
 
   body.blog, body.schedule, body.speakers {
-    background-size: 100% 195px; } }
+    background-position: 0px 25px;
+    background-size: 100% 205px; } }

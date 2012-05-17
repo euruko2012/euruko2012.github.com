@@ -304,7 +304,7 @@ table {
 
   //= Color
   body { background-image: url(/images/header-bg.jpg); }
-  body.blog, body.schedule, body.speakers { background-image: url(/images/small-header-bg.jpg); background-position: 0px 37px; }
+  body.blog, body.schedule, body.speakers { background-image: url(/images/small-header-bg.jpg); background-position: 0px 15px; }
 
   //= Layout
 
@@ -547,7 +547,7 @@ table {
       h2 {
         display: inline-block;
         font-size: 30px;
-        margin-left: 26px;
+        margin-left: 25px;
         text-align: right;
 
         b {
@@ -646,5 +646,5 @@ table {
 
 @media only screen and (min-width: 1500px) {
   body { background-size: 100% 619px; }
-  body.blog, body.schedule, body.speakers { background-size: 100% 195px; }
+  body.blog, body.schedule, body.speakers { background-position: 0px 25px; background-size: 100% 205px; }
 }
