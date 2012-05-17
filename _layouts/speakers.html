@@ -3,18 +3,15 @@
 
 {% include page_head.html %}
 
-<body class="blog">
+<body class="speakers">
 
 {% include navigation.html %}
 {% include header.html %}
 
-<h1><b>Blog</b></h1>
-
-{% for post in site.posts %}
-<article class="post">
-  {% include post.html %}
+<h1><b>Awesome speakers!</b></h1>
+<article>
+{{ content }}
 </article>
-{% endfor %}
 
 {% include analytics.html %}
 
