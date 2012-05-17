@@ -679,15 +679,6 @@ table {
   .extra-info .read-more {
     margin-top: 30px;
     text-align: right; } }
-#sponsors .additional-sponsors li {
-  width: 206px;
-  height: 136px; }
-  #sponsors .additional-sponsors li:nth-child(3n+1) {
-    clear: none;
-    margin-left: 30px; }
-  #sponsors .additional-sponsors li:first-child {
-    margin-left: 0; }
-
 @media only screen and (min-width: 1500px) {
   body {
     background-size: 100% 619px; }

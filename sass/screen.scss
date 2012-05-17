@@ -644,22 +644,6 @@ table {
   }
 }
 
-#sponsors .additional-sponsors {
-  li {
-    width: 206px;
-    height: 136px;
-
-    &:nth-child(3n+1) {
-      clear: none;
-      margin-left: 30px;
-    }
-
-    &:first-child {
-      margin-left: 0;
-    }
-  }
-}
-
 @media only screen and (min-width: 1500px) {
   body { background-size: 100% 619px; }
   body.blog, body.schedule, body.speakers { background-size: 100% 195px; }
