@@ -14,11 +14,15 @@ Have no idea where to start? Don' worry, some awesome people will be present to 
 
 This is all being made possible by the fantastic sponsorship by Heroku. Many thanks and lots of high-5s to them!
 
-[![Heroku](/images/sponsors/heroku.png "Image title")](http://www.heroku.com "Heroku")
+[![Heroku](/images/sponsors/heroku.png "Heroku")](http://www.heroku.com "Heroku")
 
 The day will start at 10am and end around 4pm. The venue is in the process of being confirmed, but will be in the centre of Amsterdam. We will provider coffee, water, soft-drinks, snacks, and the all important lunch during the day.
 
 The number of spots is limited, so be quick! You can [register for the hack day here](http://eurukohackday.eventbrite.com/).
+
+*Update*: The venue for the Hack Day is [Lab 111](http://www.lab111.nl). It's a fantastic bar/restaurant that's in the Smart Project Space art galery. It's located close to the Vondelpark. [Click here](http://maps.google.nl/maps/place?cid=9748061909450425277&q=lab+111&hl=nl&t=m&cd=1&cad=src:ppiwlink&ei=Szi6T93PLIj44QSP_5D3Dg) to find out how to get there.
+
+!["Lab 111"](/images/blog/lab111.jpg)
 
 Hope to see you at the hack day!
 
