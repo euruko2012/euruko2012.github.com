@@ -14,14 +14,12 @@ We are sorry we couldn't accept more talks, because frankly we would have loved 
 So without a further ado, here are the final speakers for EuRuKo 2012!
 
 
-## Ryan Smith - Heroku
-[Website](http://ryandotsmith.heroku.com/) - [Twitter](https://twitter.com/ryandotsmith) - [Github](https://github.com/ryandotsmith)
+## Bruno Aguirre
+[Website](http://elcuervo.co/) - [Twitter](https://twitter.com/cuerbot) - [Github](https://github.com/elcuervo)
 
-Having spent the last couple of years building systems at Heroku, Ryan was previously studying Mathematics at Missouri Kansas City University.
+Bruno is an old school coder that enjoys complex problems and simple solutions. He works at Cubox helping startups make their dreams come true. Ruby, Python and Javascript freak who is starting to get real in Go.
 
-He is not your typical ruby developer, he is a special breed of pragmatic polyglot developer who also heavily believes in the UNIX way, so much so it is almost like a religion to him!
-
-Ryan has some awesome hair, why not share a hair grooming tip or two? Or even better, get your hair styled like his!
+Worked in telecom for far too long, learned about different async protocols and became a cronical workaholic, I've recently to give some talks to have fun and share my experiences. A clown in disguise who wants people to have fun and learn.
 
 
 ## Sean Cribbs - Basho
@@ -99,9 +97,5 @@ We are sorry for the delay in announcing this, and sorry that we couldn't pick m
 Huge <3 from the Nederlands!
 
 The EuRuKo Team
-
-
-
-
 
 
