@@ -4,6 +4,8 @@
 {% include page_head.html %}
 
 <body class="home">
+  {% include navigation.html %}
+
   <header>
     <figure>
       <img src="images/logo.png" alt="">
@@ -30,22 +32,91 @@
         <p>The conference will be held in Pathé Tuschinski, a movie theatre in the heart of Amsterdam. Built in 1921 by its namesake Abraham Icek Tuschinski, the Hijman Louis de Jong-designed building is a spectacular mix of architectural styles: Amsterdam School, Jugendstil, Art Nouveau and Art Deco. The main auditorium usually plays host to movie premieres in the Netherlands, and is considered one of the most beautiful cinemas in the world.</p>
       </article>
     </section>
-    <section id="tickets">
-       <h1>Ticketing</h1>
-       <p>Tickets are sold out.</p>
-       <p>
-         There will be a limited amount of tickets distributed to worldwide user groups.
-         For more information read this <a href="/blog/2012/04/12/did-someone-say-more-tickets/">blog post</a> about this.
-       </p>
-     </section>
     <div class="extra-info">
       <section id="speakers">
-        <h1>Call for proposals</h1>
-        <p><strong>The Call for proposals is closed</strong></p>
-        <p>We'll be announcing our first confirmed speakers soon!</p>
+        <h1>Awesome speakers!</h1>
+        <ul>
+          <li>
+            <a href="/speakers.html#yukihiro-matsumoto">
+              <img src="/images/speakers/yukihiro-matsumoto.jpg" alt="Yukihiro Matsumoto" width="94" height="94">
+              <h2>Y. Matsumoto</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#geoffrey-grosenbach">
+              <img src="/images/speakers/geoffrey-grosenbach.jpg" alt="Geoffrey Grosenbach" width="94" height="94">
+              <h2>G. Grosenbach</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#brian-ford">
+              <img src="/images/speakers/brian-ford.jpg" alt="Brian Ford" width="94" height="94">
+              <h2>B. Ford</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#charles-nutter">
+              <img src="/images/speakers/charles-nutter.jpg" alt="Charles Nutter" width="94" height="94">
+              <h2>C. Nutter</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#rick-olson">
+              <img src="/images/speakers/rick-olson.jpg" alt="Rick Olson" width="94" height="94">
+              <h2>R. Olson</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#konstantin-haase">
+              <img src="/images/speakers/konstantin-haase.jpg" alt="Konstantin Haase" width="94" height="94">
+              <h2>K. Haase</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#roy-tomeij">
+              <img src="/images/speakers/roy-tomeij.jpg" alt="Roy Tomeij" width="94" height="94">
+              <h2>R. Tomeij</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#elise-huard">
+              <img src="/images/speakers/elise-huard.jpg" alt="Elise Huard" width="94" height="94">
+              <h2>E. Huard</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#bruno-aguirre">
+              <img src="/images/speakers/bruno-aguirre.jpg" alt="Bruno Aguirre" width="94" height="94">
+              <h2>B. Aguirre</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#sean-cribbs">
+              <img src="/images/speakers/sean-cribbs.jpg" alt="Sean Cribbs" width="94" height="94">
+              <h2>S. Cribbs</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#steve-klabnik">
+              <img src="/images/speakers/steve-klabnik.jpg" alt="Steve Klabnik" width="94" height="94">
+              <h2>S. Klabnik</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#eloy-duran">
+              <img src="/images/speakers/eloy-duran.jpg" alt="Eloy Durán" width="94" height="94">
+              <h2>E. Durán</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#vincent-marti">
+              <img src="/images/speakers/vincent-marti.jpg" alt="Vincent Martí" width="94" height="94">
+              <h2>V. Martí</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#martin-rehfeld">
+              <img src="/images/speakers/martin-rehfeld.jpg" alt="Martin Rehfeld" width="94" height="94">
+              <h2>M. Rehfeld</h2>
+            </a>
+          </li><li>
+            <a href="/speakers.html#mitchell-hashimoto">
+              <img src="/images/speakers/mitchell-hashimoto.jpg" alt="Mitchell Hashimoto" width="94" height="94">
+              <h2>Mitchell Hashimoto</h2>
+            </a>
+          </li>
+        </ul>
+
       </section><section id="blog">
         <h1>Blog</h1>
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:4 %}
         <article>
           <h1><a href="{{ post.url }}">{{ post.title | xml_escape}}</a></h1>
           <footer>
@@ -59,6 +130,15 @@
         {% endfor %}
         <p class="read-more"><a href="/blog.html">Read more...</a></p>
     </div>
+
+    <section id="tickets">
+       <h1>Ticketing</h1>
+       <p>Tickets are sold out.</p>
+       <p>
+         There will be a limited amount of tickets distributed to worldwide user groups.
+         For more information read this <a href="/blog/2012/04/12/did-someone-say-more-tickets/">blog post</a> about this.
+       </p>
+    </section>
   </aside>
 
   <section id="sponsors">
@@ -122,7 +202,7 @@
     </div>
     <div>
       <h1>Additional sponsors</h1>
-      <ul>
+      <ul class="additional-sponsors">
         <li>
           <h3>Boat party</h3>
           <a href="http://www.github.com"><img src="/images/sponsors/github.png" alt="Github"></a>
@@ -135,9 +215,22 @@
           <h3>Fruit</h3>
           <a href="http://www.finalist.nl"><img src="/images/sponsors/finalist.png" alt="Finalist"></a>
         </li>
+        <li>
+          <h3>Hack day</h3>
+          <a href="http://www.heroku.com"><img src="/images/sponsors/heroku.png" alt="Heroku"></a>
+        </li>
+        <li>
+          <h3>Friday party</h3>
+          <a href="http://www.clubjudge.com"><img src="/images/sponsors/clubjudge.png" alt="ClubJudge"></a>
+        </li>
+        <li>
+          <h3>Final party</h3>
+          <a href="http://www.scalarium.com"><img src="/images/sponsors/scalarium.png" alt="Scalarium"></a>
+        </li>
       </ul>
     </div>
     <div class="supporters">
+      <a name="supporters"></a>
       <h1>Supporters</h1>
       <ul>
         <li>Kacper Bielecki <span>SponsorPay</span></li>
