@@ -301,6 +301,8 @@ table {
   table tbody {
     border: 1px solid #ccc; }
 
+.schedule .day th:last-child {
+  width: 160px; }
 .schedule article section {
   overflow: hidden;
   margin-bottom: 50px; }

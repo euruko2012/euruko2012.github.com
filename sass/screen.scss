@@ -186,6 +186,11 @@ table {
 }
 
 .schedule {
+  .day {
+    th:last-child {
+      width: 160px;
+    }
+  }
   article section {
     overflow: hidden;
     margin-bottom: 50px;
