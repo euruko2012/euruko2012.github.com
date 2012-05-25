@@ -436,6 +436,9 @@ table {
     body > article h1 {
       margin-bottom: 30px; }
 
+  nav ul li.twitter {
+    display: block; }
+
   aside {
     margin-top: 30px;
     margin-bottom: 40px; }
