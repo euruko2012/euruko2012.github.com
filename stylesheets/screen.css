@@ -587,13 +587,18 @@ table {
     border-bottom: 1px solid #C8C5BF;
     padding-bottom: 15px;
     margin-bottom: 15px; }
+    #blog article footer {
+      margin: 0; }
+    #blog article h1 {
+      font-size: 20px;
+      position: relative; }
 
-  #blog article footer {
-    margin: 0; }
-
-  #blog article h1 {
-    font-size: 20px;
-    position: relative; }
+  .sponsor-logo {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px 30px;
+    display: inline-block;
+    margin: 0 auto; }
 
   #blog footer, .blog article footer, .schedule article footer {
     margin-bottom: 38px;
