@@ -260,7 +260,8 @@ nav {
       nav ul li.twitter {
         font-size: 13px;
         padding-right: 28px;
-        background: url(/images/twitter.png) no-repeat right center; }
+        background: url(/images/twitter.png) no-repeat right center;
+        display: none; }
     nav ul a {
       color: #fafbd7;
       text-transform: uppercase; }
@@ -435,6 +436,9 @@ table {
     body > article h1 {
       margin-bottom: 30px; }
 
+  nav ul li.twitter {
+    display: block; }
+
   aside {
     margin-top: 30px;
     margin-bottom: 40px; }
@@ -597,8 +601,7 @@ table {
     background: #fff;
     border: 1px solid #ccc;
     padding: 15px 30px;
-    display: inline-block;
-    margin: 0 auto; }
+    display: inline-block; }
 
   #blog footer, .blog article footer, .schedule article footer {
     margin-bottom: 38px;
@@ -631,7 +634,7 @@ table {
     .blog > header h2, .schedule > header h2, .speakers > header h2 {
       display: inline-block;
       font-size: 30px;
-      margin-left: 25px;
+      margin-left: 20px;
       text-align: right; }
       .blog > header h2 b, .schedule > header h2 b, .speakers > header h2 b {
         display: block; }

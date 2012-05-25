@@ -115,6 +115,7 @@ nav {
         font-size: 13px;
         padding-right: 28px;
         background: url(/images/twitter.png) no-repeat right center;
+        display: none;
       }
     }
 
@@ -320,6 +321,7 @@ table {
   body > article { margin-top: 40px; min-height: 226px;
     h1 { margin-bottom: 30px; }
   }
+  nav ul li.twitter { display: block; }
   aside { margin-top: 30px; margin-bottom: 40px;
     section { margin-top: 40px; }
     #speakers h1 { margin-bottom: 30px; }
@@ -494,7 +496,7 @@ table {
     border-bottom: 1px solid #C8C5BF;
     padding-bottom: 15px;
     margin-bottom: 15px;
-    
+
     footer {
       margin: 0;
     }
@@ -559,7 +561,7 @@ table {
       h2 {
         display: inline-block;
         font-size: 30px;
-        margin-left: 25px;
+        margin-left: 20px;
         text-align: right;
 
         b {
