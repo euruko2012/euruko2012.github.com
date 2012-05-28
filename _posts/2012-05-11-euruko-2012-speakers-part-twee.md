@@ -17,9 +17,11 @@ So without a further ado, here are the final speakers for EuRuKo 2012!
 ## Bruno Aguirre
 [Website](http://elcuervo.co/) - [Twitter](https://twitter.com/cuerbot) - [Github](https://github.com/elcuervo)
 
-Bruno is an old school coder that enjoys complex problems and simple solutions. He works at Cubox helping startups make their dreams come true. Ruby, Python and Javascript freak who is starting to get real in Go.
+Bruno is an old school coder who enjoys complex problems and simple solutions. He works at Cubox in Uruguay helping startups make their dreams come true. His love for new languages is stronger than ever, with Ruby, Python and Javascript under his belt he is now starting to fall in love with Go!
 
-Worked in telecom for far too long, learned about different async protocols and became a cronical workaholic, I've recently to give some talks to have fun and share my experiences. A clown in disguise who wants people to have fun and learn.
+Bruno has worked in the telecoms field for far too long, but he has learnt many awesome and tragic things, from different async protocols to how to become a cronic workaholic.
+
+Secretly Bruno is a clown in disguise who likes to dresss up, maybe you might see him at EuRuKo, or maybe you won't, or at least you won't know it :)
 
 
 ## Sean Cribbs - Basho
