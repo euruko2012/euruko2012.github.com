@@ -21,7 +21,7 @@ Bruno is an old school coder who enjoys complex problems and simple solutions. H
 
 Bruno has worked in the telecoms field for far too long, but he has learnt many awesome and tragic things, from different async protocols to how to become a cronic workaholic.
 
-Secretly Bruno is a clown in disguise who likes to dresss up, maybe you might see him at EuRuKo, or maybe you won't, or at least you won't know it :)
+Secretly Bruno is a clown in disguise who likes to dress up, maybe you might see him at EuRuKo, or maybe you won't, or at least you won't know it :)
 
 
 ## Sean Cribbs - Basho
