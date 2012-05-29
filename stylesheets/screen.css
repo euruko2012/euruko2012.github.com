@@ -519,6 +519,9 @@ table {
       #sponsors li.description {
         width: 598px;
         height: auto; }
+    #sponsors .extra-sponsors li {
+      margin: 0 auto;
+      float: none; }
     #sponsors .silver li {
       width: 205px;
       height: 136px;
