@@ -1,5 +1,5 @@
 ---
-title: "EuRuKo 2012 Friday Night Rumble - powered by ClubJudge"
+title: "EuRuKo Friday Night Rumble by ClubJudge"
 author: "Bruno Antunes"
 picture: "/images/avatars/bruno.png"
 layout: post
