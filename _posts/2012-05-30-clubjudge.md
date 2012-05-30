@@ -1,11 +1,9 @@
 ---
-title: "A word from our sponsor: ClubJudge"
+title: "EuRuKo 2012 Friday Night Rumble - powered by ClubJudge"
 author: "Bruno Antunes"
 picture: "/images/avatars/bruno.png"
 layout: post
 ---
-EuRuKo 2012 Friday Night Rumble - powered by ClubJudge
-<br/>
 ![Clubjudge logo](http://www.euruko2012.org/images/sponsors/clubjudge.png)
 <br/>
 When a company like [ClubJudge](http://www.clubjudge.com), the world's official hallmark for quality of nightlife venues is throwing a party, you just know it's going to be great.
