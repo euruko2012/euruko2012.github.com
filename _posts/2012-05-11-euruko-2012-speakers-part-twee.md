@@ -34,16 +34,18 @@ As a Software Engineer for Basho Technologies, Sean spends his time hacking in R
 Random fact : Sean used to be a Choir director for 3 years, and we hear from a reputable source that he loves it when you sing Silent Night to him in falsetto!
 
 
-## Steve Klabnik - Hackety Hack
-[Website](http://steveklabnik.com/) - [Twitter](https://twitter.com/steveklabnik) - [Github](https://github.com/steveklabnik)
+## Terence Lee - Heroku
+[Website](http://hone.heroku.com/) - [Twitter](https://twitter.com/hone02) - [Github](https://github.com/hone)
 
-A teacher, aspiring digital humanities scholar and open source developer, Steve is just an all round great guy!
+The fantastic Mr Terence works at Heroku maintaining the Ruby stack and a slew of OSS projects such as Bundler and Resque, as well as helping with the Rails Girls movement. When he's not going to an awesome Heroku or Ruby event, he lives in Austin, TX, the taco capital of America, where everything is three times bigger!
 
-Steve maintains the Hackety Hack project, which allows anyone to learn software development via Ruby. He was a Ruby Hero in 2011 and is involved with many Ruby-based open source projects. Steve also teaches the best Ruby and Rails classes on Earth with Jumpstart Lab.
+Terence will be talking about the inner workings of Bundler, including  the shortcomings of 1.0 and how 1.1 has helped make developers happier worldwide. On top of this, the future of Bundler will also be a hot topic.
 
-True story : Many kids have asked for Steves autograph thinking that he is Skrillex!
+And what is a good talk without a great story of the bundler and gemcutter teams working together to make bundle install significantly faster in 1.1.
 
-Instead of EuRuKo trying for the largest Friday Hug, this year we will be aiming for the largest number of audience member with a Skrillex haircut!
+If you don't walk away with a better understanding of how bundler works then Terence will personally give you your money back!.
+
+(Terence loves Friday hugs, EVERY DAY OF THE WEEK!, give him a big one when you see him!)
 
 
 ## Eloy Durán - Fingertips
