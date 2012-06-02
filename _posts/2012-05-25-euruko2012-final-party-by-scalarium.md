@@ -24,6 +24,8 @@ Scalarium is an automation solution to manage clusters on Amazon EC2 and other c
 
 The party and drinks start at 9pm, and don't forget to bring your conference badge because this is also your 'free drinks' badge for the night ;)
 
-Have an AWESOME weekend,
+*Update*: The exact location of Roest is [here](https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=roest+amsterdam&aq=&sll=37.0625,-95.677068&sspn=37.410045,86.572266&vpsrc=6&ie=UTF8&hq=roest&hnear=Amsterdam,+North+Holland,+The+Netherlands&t=m&fll=52.372534,4.922433&fspn=0.007048,0.021136&st=109146043351405611748&rq=1&ev=zi&split=1&ll=52.372534,4.922433&spn=0.007048,0.021136&z=16&iwloc=A). From Rembrandtplein it's best to take Tram 9 in the direction of of Diemen. Get out at the stop Alexanderplein and transfer to line 10 in the direction of Azartplein. Get out at the stop 1e Leeghwaterstraat. From there it's a short walk to the venue.
+
+Have an AWESOME party,
 
 The EuRuKo Team
